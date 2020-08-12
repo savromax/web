@@ -3124,3 +3124,10 @@ module.exports = _nonIterableRest;
 
 /***/ })
 /******/ ]);
+
+
+$(function() {
+  $('.phone-mask').mask('+7(999)999-99-99').click(function () {
+    $(this).get(0).setSelectionRange(3, 3);
+  });
+});
