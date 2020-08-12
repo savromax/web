@@ -524,6 +524,9 @@ a {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+  .header {
+    height: 100vh; 
+  }
   .header__wave {
     height: 14vw;
     margin-bottom: 3vw;
