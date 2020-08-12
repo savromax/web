@@ -69,7 +69,7 @@ a {
   flex: 0 0 auto;
 }
 
-.div-block {
+.nav__menu {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -348,7 +348,7 @@ a {
   .nav__logo {
     padding-top: 15px;
   }
-  .div-block {
+  .nav__menu {
     margin-top: -16px;
     padding-top: 15px;
     border-top-right-radius: 0px;
