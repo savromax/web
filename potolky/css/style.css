@@ -267,7 +267,7 @@ a {
   max-width: 100%;
 }
 
-.image-6 {
+.header__dots {
   position: absolute;
   left: 22px;
   top: 69px;
@@ -398,7 +398,7 @@ a {
     -ms-flex-order: 2;
     order: 2;
   }
-  .image-6 {
+  .header__dots {
     left: auto;
     top: 148px;
     right: 20px;
@@ -499,7 +499,7 @@ a {
     font-size: 15px;
     line-height: 20px;
   }
-  .image-6 {
+  .header__dots {
     right: 15px;
     max-width: 165px;
   }
@@ -582,9 +582,13 @@ a {
   .header__box {
     height: 71vh;
   }
-   .header__couch {
+  .header__couch {
     display: none;
   }
+  .header__dots {
+    max-width: 120px;
+    top: 175px;
+  } 
 }
 @font-face {
   font-family: 'Montserrat';
