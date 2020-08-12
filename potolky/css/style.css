@@ -276,7 +276,7 @@ a {
   z-index: 0;
 }
 
-.image-7 {
+.header__painter {
   position: absolute;
   left: 70px;
   top: -126px;
@@ -315,7 +315,7 @@ a {
   .div-block-4 {
     margin-left: 75px;
   }
-  .image-7 {
+  .header__painter {
     top: -10.5vw;
   }
 }
@@ -324,7 +324,7 @@ a {
   .header__box {
     margin-top: -2vw;
   }
-  .image-7 {
+  .header__painter {
     top: -8.5vw;
   }
 }
@@ -333,7 +333,7 @@ a {
   .header__box {
     margin-top: -4vw;
   }
-  .image-7 {
+  .header__painter {
     top: -7vw;
   }
 }
@@ -404,7 +404,7 @@ a {
     right: 20px;
     max-width: 160px;
   }
-  .image-7 {
+  .header__painter {
     left: auto;
     top: -20px;
     right: 0%;
@@ -556,7 +556,7 @@ a {
     max-width: 200px;
     margin-bottom: 10vw;
   }
-  .image-7 {
+  .header__painter {
     top: -45px;
   }
   .heading {
