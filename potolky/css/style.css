@@ -576,6 +576,8 @@ a {
   .header__box {
     height: 71vh;
   }
+}
+@media screen and (max-height: 700px) {
   .header__couch {
     display: none;
   }
