@@ -133,7 +133,7 @@ a {
   background-repeat: no-repeat;
 }
 
-.div-block-2 {
+.header__box {
   z-index: 3;
   display: -webkit-box;
   display: -webkit-flex;
@@ -321,7 +321,7 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
-  .div-block-2 {
+  .header__box {
     margin-top: -2vw;
   }
   .image-7 {
@@ -330,7 +330,7 @@ a {
 }
 
 @media screen and (min-width: 1920px) {
-  .div-block-2 {
+  .header__box {
     margin-top: -4vw;
   }
   .image-7 {
@@ -370,7 +370,7 @@ a {
   .header__wave {
     height: 11vw;
   }
-  .div-block-2 {
+  .header__box {
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -530,8 +530,13 @@ a {
     background-image: url("../images/wave-mobile.svg");
     background-position: 100% 50%;
   }
-  .div-block-2 {
+  .header__box {
     position: relative;
+    height: 76vh;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .text-block-2 {
     font-size: 4.3vw;
