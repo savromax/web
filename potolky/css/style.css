@@ -572,7 +572,7 @@ a {
     width: 55%;
   }
 }
-@media screen and (max-width: 413px), screen and (max-height: 700px) {
+@media screen and (max-width: 413px) and (max-height: 700px) {
   .header__box {
     height: 71vh;
   }
