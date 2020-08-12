@@ -571,7 +571,7 @@ a {
 }
 @media screen and (max-width: 375px) {
   .header__box {
-    width: 71vh;
+    height: 71vh;
   }
   .header__couch {
     display: none;
