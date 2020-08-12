@@ -565,8 +565,13 @@ a {
   }
 }
 @media screen and (max-width: 413px) {
-	.nav__menu {
-  	width: 55%;
+  .nav__menu {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__box {
+    width: 71vh;
   }
 }
 @font-face {
