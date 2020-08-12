@@ -256,7 +256,7 @@ a {
   font-weight: 500;
 }
 
-.image-5 {
+.header__couch {
   position: absolute;
   left: 14px;
   top: 138px;
@@ -389,7 +389,7 @@ a {
     -ms-flex-order: 1;
     order: 1;
   }
-  .image-5 {
+  .header__couch {
     position: relative;
     left: 0px;
     top: 0px;
@@ -572,6 +572,9 @@ a {
 @media screen and (max-width: 375px) {
   .header__box {
     width: 71vh;
+  }
+  .header__couch {
+    display: none;
   }
 }
 @font-face {
