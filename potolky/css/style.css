@@ -572,13 +572,11 @@ a {
     width: 55%;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-height: 700px) {
   .header__box {
     height: 71vh;
   }
-}
-@media screen and (max-height: 700px) {
-  .header__couch {
+   .header__couch {
     display: none;
   }
 }
