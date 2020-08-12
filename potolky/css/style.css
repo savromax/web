@@ -286,10 +286,14 @@ a {
   max-width: 246px;
 }
 
-.image-2-copy {
+.header__gift {
   width: 75px;
   margin-top: -10px;
   margin-right: 20px;
+  -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
 }
 
 .nav__link-box {
@@ -503,7 +507,7 @@ a {
     right: 15px;
     max-width: 165px;
   }
-  .image-2-copy {
+  .header__gift {
     width: 43px;
     margin-right: 12px;
   }
