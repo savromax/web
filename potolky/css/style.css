@@ -309,7 +309,9 @@ header {
 
 footer {  
   padding: 35px 0;
+  text-align: center;
   background: #32313F;
+  color: #fff;  
 }
 
 .footer__container {
@@ -321,13 +323,11 @@ footer {
 .footer__text {
   font-size: 30px;
   line-height: 37px;
-  text-align: center;
 }
 
 .footer__copyright {
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
 }
 
 .footer__socials img {
