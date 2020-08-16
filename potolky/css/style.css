@@ -309,6 +309,10 @@ a {
   align-items: center;
 }
 
+.navbar {
+	background: #32313F;
+}
+
 @media screen and (min-width: 1280px) {
   .text-block {
     margin-right: 25px;
