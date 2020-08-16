@@ -433,7 +433,7 @@ header {
 .contacts:before {
   content: '';
   position: absolute;
-  top: 105px;
+  top: 120px;
   right: 0;
   width: 524px;
   height: 524px;
