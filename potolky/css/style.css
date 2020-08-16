@@ -350,6 +350,18 @@ header {
   font-weight: 500;
   font-size: 55px;
   line-height: 67px;
+  margin-bottom: 15px;
+}
+
+.order__box img {
+  float: right;
+  margin-bottom: 15px;
+}
+
+.order__box p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
 }
 
 .advantages {
