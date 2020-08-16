@@ -403,6 +403,12 @@ header {
   padding: 100px 0 110px;
 }
 
+.contacts__wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
 .contacts__box {
   display: flex;
   align-items: center;
