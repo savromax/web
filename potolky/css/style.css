@@ -324,12 +324,14 @@ header {
   align-items: center;
 }
 
-.reason {
+.poryadok, .reason {
   padding: 35px 0;
 }
 
 
-
+.advantages {
+  padding: 70px 0 35px;
+}
 
 .advantages__wrapper {
   display: flex;
