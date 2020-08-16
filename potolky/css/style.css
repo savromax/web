@@ -391,6 +391,10 @@ header {
   line-height: 23px;
 }
 
+.contacts {
+  padding: 100px 0 110px;
+}
+
 
 footer {  
   padding: 35px 0;
