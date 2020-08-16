@@ -358,13 +358,14 @@ header {
   content: '';
   position: absolute;
   width: 113px;
-  height: 113px;
+  height: 106px;
   background: url('../images/advantages-dots.png') 0 0 no-repeat;
-  background-position: cover;
+  background-size: cover;
   z-index: -1;
 }
 
-.advantage__box:nth-child(1) .advantage__image-box:before {  
+.advantage__box:nth-child(1) .advantage__image-box:before,
+.advantage__box:nth-child(1n+7) .advantage__image-box:before {  
   top: 0;
   left: -30px;
 }
@@ -375,7 +376,7 @@ header {
 }
 
 .advantage__box:nth-child(4) .advantage__image-box:before {  
-  bottom: 0;
+  bottom: -9px;
   left: -30px;
 }
 
@@ -385,6 +386,7 @@ header {
 }
 
 .advantage__box h3 {
+  margin: 25px 0 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
