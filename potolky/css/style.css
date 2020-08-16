@@ -349,32 +349,32 @@ header {
   position: relative;
 }
 
-.advantages__image-box:nth-cild(1):before,
-.advantages__image-box:nth-cild(2):before,
-.advantages__image-box:nth-cild(3):before,
-.advantages__image-box:nth-cild(4):before {
+.advantages__image-box:nth-child(1):before,
+.advantages__image-box:nth-child(2):before,
+.advantages__image-box:nth-child(3):before,
+.advantages__image-box:nth-child(4):before {
   content: url(/images/advantages__dots.png);
   position: absolute;
   width: 113px;
   z-index: -1;
 }
 
-.advantages__image-box:nth-cild(1):before {  
+.advantages__image-box:nth-child(1):before {  
   top: 0;
   left: -30px;
 }
 
-.advantages__image-box:nth-cild(3):before {  
+.advantages__image-box:nth-child(2):before {  
   bottom: 0;
   right: 0; 
 }
 
-.advantages__image-box:nth-cild(4):before {  
+.advantages__image-box:nth-child(3):before {  
   bottom: 0;
   left: -30px;
 }
 
-.advantages__image-box:nth-cild(6):before {  
+.advantages__image-box:nth-child(4):before {  
   top: 0;
   right: 0;
 }
