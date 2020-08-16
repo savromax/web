@@ -321,6 +321,7 @@ footer {
 }
 
 .footer__text {
+  margin: -9px 0 9px;
   font-size: 30px;
   line-height: 37px;
 }
@@ -597,6 +598,12 @@ footer {
     margin-bottom: 6vw;
     line-height: 1.35em;
   }
+  .footer__text {
+    margin: 45px 0 16px;
+  }
+  .footer__copyright {
+    margin-bottom: 45px;
+  }
 }
 @media screen and (max-width: 412px) {
   .nav__menu {
@@ -624,6 +631,7 @@ footer {
     top: 175px;
   } 
 }
+
 @font-face {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat-Medium.woff') format('woff');
