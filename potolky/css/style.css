@@ -353,6 +353,7 @@ header {
   content: url(/images/advantages__dots.png);
   position: absolute;
   width: 113px;
+  z-index: -1;
 }
 
 .advantages__image-box:nth-cild(1):before {  
