@@ -335,7 +335,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 40px;
   padding-left: 30px;
 }
@@ -349,10 +349,7 @@ header {
   position: relative;
 }
 
-.advantages__image-box:nth-child(1):before,
-.advantages__image-box:nth-child(2):before,
-.advantages__image-box:nth-child(3):before,
-.advantages__image-box:nth-child(4):before {
+.advantages__image-box:nth-child(1):before {
   content: '';
   position: absolute;
   width: 113px;
