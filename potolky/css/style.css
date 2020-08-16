@@ -398,6 +398,48 @@ header {
   padding: 100px 0 110px;
 }
 
+.contacts__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contacts__box:nth-child(1), .contacts__box:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+.contacts__box img {
+  margin-right: 45px;
+}
+
+.contacts__phone, .contacts__email {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.contacts__phone {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.contacts__email {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.contacts__email-caption {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contacts__adress {
+  font-size: 25px;
+  line-height: 30px;
+}
+
 
 footer {  
   padding: 35px 0;
