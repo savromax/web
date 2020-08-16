@@ -314,6 +314,10 @@ footer {
   background: #32313F;
 }
 
+.footer__socials img:nth-child(1,2) {
+  margin-right: 21px;
+}
+
 @media screen and (min-width: 1280px) {
   .text-block {
     margin-right: 25px;
