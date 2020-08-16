@@ -342,46 +342,46 @@ header {
   padding-left: 30px;
 }
 
-.advantages__box {
+.advantage__box {
   width: 27.5%;
   margin-top: 35px;
 }
 
-.advantages__image-box {
+.advantage__image-box {
   position: relative;
 }
 
-.advantages__box:nth-child(1) .advantage__image-box:before,
-.advantages__box:nth-child(3) .advantage__image-box:before,
-.advantages__box:nth-child(4) .advantage__image-box:before,
-.advantages__box:nth-child(6) .advantage__image-box:before {
+.advantage__box:nth-child(1) .advantage__image-box:before,
+.advantage__box:nth-child(3) .advantage__image-box:before,
+.advantage__box:nth-child(4) .advantage__image-box:before,
+.advantage__box:nth-child(6) .advantage__image-box:before {
   content: url('/images/advantages-dots.png');
   position: absolute;
   width: 113px;
   z-index: -1;
 }
 
-.advantages__box:nth-child(1) .advantage__image-box:before {  
+.advantage__box:nth-child(1) .advantage__image-box:before {  
   top: 0;
   left: -30px;
 }
 
-.advantages__box:nth-child(3) .advantage__image-box:before {  
+.advantage__box:nth-child(3) .advantage__image-box:before {  
   bottom: 0;
   right: 0; 
 }
 
-.advantages__box:nth-child(4) .advantage__image-box:before {  
+.advantage__box:nth-child(4) .advantage__image-box:before {  
   bottom: 0;
   left: -30px;
 }
 
-.advantages__box:nth-child(6) .advantage__image-box:before {  
+.advantage__box:nth-child(6) .advantage__image-box:before {  
   top: 0;
   right: 0;
 }
 
-.advantages__box h3 {
+.advantage__box h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -389,7 +389,7 @@ header {
   color: #000;
 }
 
-.advantages__box p {
+.advantage__box p {
   font-size: 19px;
   line-height: 23px;
 }
