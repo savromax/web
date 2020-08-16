@@ -365,7 +365,7 @@ header {
 }
 
 .advantage__box:nth-child(1) .advantage__image-box:before,
-.advantage__box:nth-child(1n+7) .advantage__image-box:before {  
+.advantage__box:nth-child(1n+6) .advantage__image-box:before {  
   top: 0;
   left: -30px;
 }
