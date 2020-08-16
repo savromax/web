@@ -355,9 +355,12 @@ header {
 .advantage__box:nth-child(3) .advantage__image-box:before,
 .advantage__box:nth-child(4) .advantage__image-box:before,
 .advantage__box:nth-child(6) .advantage__image-box:before {
-  content: url('../images/advantages-dots.png');
+  content: '';
   position: absolute;
   width: 113px;
+  height: 113px;
+  background: url('../images/advantages-dots.png') 0 0 no-repeat;
+  background-position: cover;
   z-index: -1;
 }
 
