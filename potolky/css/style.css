@@ -415,6 +415,7 @@ header {
 }
 
 .contacts__box img {
+  width: 121px;
   margin-right: 45px;
 }
 
