@@ -413,7 +413,6 @@ header {
 .contacts__box {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   text-align: center;
   font-size: 20px;
   line-height: 24px;
@@ -428,7 +427,7 @@ header {
   margin-right: 45px;
 }
 
-.contacts__phone, .contacts__email {
+.contacts__phone, .contacts__email, .contacts__adress {
   display: inline-block;
   margin-bottom: 10px;
 }
