@@ -310,8 +310,8 @@ a {
 }
 
 .footer {
-	padding: 35px 0;
-	background: #32313F;
+  padding: 35px 0;
+  background: #32313F;
 }
 
 @media screen and (min-width: 1280px) {
