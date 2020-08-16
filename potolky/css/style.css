@@ -438,6 +438,8 @@ header {
   width: 524px;
   height: 524px;
   background: #F6F5FA;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .contacts__wrapper {
