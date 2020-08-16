@@ -325,10 +325,32 @@ header {
   align-items: center;
 }
 
-.poryadok, .reason {
+
+
+.order, .reason {
   padding: 35px 0;
 }
 
+.order {
+  background: #F8DA3A;
+}
+
+.order__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.order__box {
+  width: 28%;
+}
+
+.order__number {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 67px;
+}
 
 .advantages {
   padding: 70px 0 35px;
