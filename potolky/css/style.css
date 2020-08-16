@@ -314,7 +314,11 @@ footer {
   background: #32313F;
 }
 
-.footer__socials img:nth-child(1,2) {
+.footer__socials img {
+  width: 52px;
+}
+
+.footer__socials img:nth-child(1), .footer__socials img:nth-child(2) {
   margin-right: 21px;
 }
 
