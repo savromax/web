@@ -341,7 +341,7 @@ header {
 }
 
 .advantages__box {
-  width: 31%;
+  width: 27.5%;
   margin-top: 35px;
 }
 
@@ -353,7 +353,7 @@ header {
 .advantages__image-box:nth-child(2):before,
 .advantages__image-box:nth-child(3):before,
 .advantages__image-box:nth-child(4):before {
-  content: url("/images/advantages__dots.png");
+  content: '';
   position: absolute;
   width: 113px;
   z-index: -1;
@@ -377,6 +377,19 @@ header {
 .advantages__image-box:nth-child(4):before {  
   top: 0;
   right: 0;
+}
+
+.advantages__box h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+}
+
+.advantages__box p {
+  font-size: 19px;
+  line-height: 23px;
 }
 
 
