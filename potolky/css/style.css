@@ -467,6 +467,15 @@ footer {
   .image-9 {
     margin-bottom: 5px;
   }
+  .footer__text {
+    margin-top: 0;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .footer__copyright {
+    font-size: 15px;
+    line-height: 18px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -544,6 +553,17 @@ footer {
   .heading {
     margin-bottom: 25px;
   }
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .footer__text {
+    margin: 45px 0 16px;
+  }
+  .footer__copyright {
+    margin-bottom: 45px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -599,10 +619,10 @@ footer {
     line-height: 1.35em;
   }
   .footer__text {
-    margin: 45px 0 16px;
+    font-size: 6vw;
   }
   .footer__copyright {
-    margin-bottom: 45px;
+    font-size: 4.5vw;
   }
 }
 @media screen and (max-width: 412px) {
