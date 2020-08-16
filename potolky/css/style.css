@@ -374,7 +374,7 @@ header:before, .order:after {
 }
 
 .order__box:nth-child(2) img {
-  margin: 75px 0 -60px;
+  margin: 75px 0 -60px auto;
 }
 
 .order__box p {
