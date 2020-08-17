@@ -529,9 +529,13 @@ header:before {
   line-height: 20px;
 }
 
-.contacts__adress {
+.contacts__address {
   font-size: 25px;
   line-height: 30px;
+}
+
+.contacts__map {
+  width: 50%;
 }
 
 
