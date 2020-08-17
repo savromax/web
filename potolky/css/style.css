@@ -60,7 +60,7 @@ header:before, .order:after {
   background-repeat: no-repeat;
 }
 
-.header:before {
+header:before {
   top: 0;
 }
 
@@ -333,13 +333,14 @@ header:before, .order:after {
 
 
 
-.order, .reason {
+.reason {
   padding: 35px 0;
 }
 
 .order {
-  background: #F8DA3A;
   position: relative;
+  padding: 35px 0 15px;
+  background: #F8DA3A;  
 }
 
 .order:after {
@@ -384,6 +385,7 @@ header:before, .order:after {
 
 .advantages {
   padding: 70px 0 35px;
+  overflow: hidden;
 }
 
 .advantages__wrapper {
@@ -402,6 +404,7 @@ header:before, .order:after {
 
 .advantage__image-box {
   position: relative;
+  max-width: 290px;
 }
 
 .advantage__box:nth-child(1) .advantage__image-box:before,
@@ -682,6 +685,13 @@ footer {
   .image-9 {
     margin-bottom: 5px;
   }
+
+
+  .advantage__box {
+    width: 45%;
+  }
+  
+
   .footer__text {
     margin-top: 0;
     font-size: 25px;
