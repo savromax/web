@@ -881,7 +881,7 @@ footer {
     width: 45%;
   }
   .order__box img {
-    width: 105px;
+    width: 100px;
   }
   .order__box:nth-child(1) img,
   .order__box:nth-child(3) img {
@@ -910,7 +910,7 @@ footer {
     max-width: 300px;
   }
   .advantage__image-box {
-    width: 80px;
+    width: 75px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
@@ -1038,16 +1038,17 @@ footer {
   }
   .order__box:nth-child(2) img,
   .order__box:nth-child(3) img {
-    margin: 20px 0 -110px auto;
+    margin: 20px 0 -100px auto;
   }
   .order__box p {
-    width: 75%;
+    width: 78%;
     font-size: 22px;
     line-height: 27px;
   }
 
   .advantages__wrapper {
     flex-direction: column;
+    margin-top: 10px;
   }
   .advantage__box {
     width: 100%;
