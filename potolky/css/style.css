@@ -333,8 +333,132 @@ header:before {
 
 
 .reason {
-  padding: 35px 0;
+  padding: 35px 0 55px;
 }
+
+.reason__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.reason__center {
+  position: absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border: 45px solid #F5F4F9;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.reason__box {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.reason__box:nth-child(1) {
+  width: 38%;  
+  padding: 0 120px 0 60px;
+  order: 1
+}
+
+.reason__box:nth-child(2) {
+  width: 33%;
+  margin-bottom: 15px;
+  padding-right: 10%;
+  order: 3;
+}
+
+.reason__box:nth-child(3) {
+  width: 44%;
+  margin-bottom: 30px;
+  padding-left: 120px;
+  order: 2;
+}
+
+.reason__box:nth-child(4) {
+  width: 37%;
+  padding-left: 105px;
+  order: 4;
+}
+
+.reason__box:nth-child(5) {
+  width: 40%;
+  padding-left: 150px;
+  order: 5;
+}
+
+.reason__box:nth-child(6) {
+  width: 46%;
+  padding-right: 170px;
+  order: 6;
+}
+
+.reason__box:nth-child(1),
+.reason__box:nth-child(2),
+.reason__box:nth-child(6) {
+  text-align: right;
+}
+
+.reason__box:nth-child(3),
+.reason__box:nth-child(4),
+.reason__box:nth-child(5) {
+  text-align: left;
+}
+
+.reason__box img {
+  position: absolute;
+  width: 73px;
+}
+
+.reason__box:nth-child(1) img,
+.reason__box:nth-child(2) img {
+  top: 0;
+  right: 0;
+}
+
+.reason__box:nth-child(3) img,
+.reason__box:nth-child(4) img {
+  top: 0;
+  left: 0;
+}
+
+.reason__box:nth-child(5) img {
+  top: -75px;
+  right: 0;
+}
+
+.reason__box:nth-child(6) img {
+  top: -75px;
+  left: 28px;
+}
+
+.reason__box h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.reason__box:nth-child(3) h3,
+.reason__box:nth-child(4) h3 {
+  width: 180px;
+}
+
+
+.reason__box p {
+  font-size: 19px;
+  line-height: 23px;
+}
+
 
 .order {
   position: relative;
@@ -623,6 +747,9 @@ footer {
   .contacts__box img {
     width: 105px;
     margin-right: 20px;
+  }
+  .reason__box p {
+    font-size: 1.5vw;
   }
 }
 
