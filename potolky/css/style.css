@@ -38,6 +38,10 @@ h2 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   color: #32313f;
   text-decoration: none;
@@ -716,9 +720,23 @@ footer {
   }
 
   .advantage__box {
-    width: 45%;
+    width: 31%;
+    text-align: center;
   }
-  
+  .advantage__image-box {
+    width: 150px;
+    margin: 0 auto;
+  }
+  .advantage__box h3 {
+    margin: 15px 0 10px;
+    font-size: 19px;
+    line-height: 27px;
+  }
+  .advantage__box p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
   
   .contacts__box {
     font-size: 15px;
@@ -835,6 +853,20 @@ footer {
     margin-bottom: 25px;
   }
 
+  .advantages__wrapper {
+    padding-left: 0;
+  }
+  .advantage__box {
+    width: 49%;
+    max-width: 300px;
+  }
+  .advantage__image-box {
+    width: 80px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+
   .contacts {
     padding: 35px 0 65px;
   }
@@ -942,6 +974,23 @@ footer {
     margin-bottom: 6vw;
     line-height: 1.35em;
   }
+
+  .advantages__wrapper {
+    flex-direction: column;
+  }
+  .advantage__box {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    text-align: left;
+  }
+  .advantage__image-box {
+    margin-right: 15px;
+  }
+  .advantage__box h3 {
+    margin-top: 0;
+  }
+
   .contacts {
     padding-bottom: 50px;
   }
