@@ -771,6 +771,9 @@ footer {
     font-size: 15px;
     line-height: 18px;
   }
+  .footer__socials img:nth-child(1), .footer__socials img:nth-child(2) {
+    margin-right: 5px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -919,6 +922,9 @@ footer {
   }
   .footer__copyright {
     margin-bottom: 45px;
+  }
+  .footer__socials img:nth-child(1), .footer__socials img:nth-child(2) {
+    margin-right: 21px;
   }
 }
 
