@@ -339,7 +339,7 @@ header:before {
 
 .order {
   position: relative;
-  padding: 35px 0 15px;
+  padding: 35px 0 20px;
   background: #F8DA3A;  
 }
 
@@ -358,6 +358,10 @@ header:before {
 .order__box {
   width: 27%;
   z-index: 1;
+}
+
+.order__box:nth-child(2) {
+  width: 24%;
 }
 
 .order__number {
@@ -480,6 +484,12 @@ header:before {
   align-items: stretch;
   justify-content: space-between;
   margin-top: 90px;
+}
+
+.contacts__content {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 .contacts__box {
