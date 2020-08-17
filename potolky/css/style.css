@@ -342,7 +342,6 @@ header:before {
   justify-content: space-between;
   margin-top: 70px;
   position: relative;
-  padding-bottom: 40px;
 }
 
 .reason__center {
@@ -361,7 +360,6 @@ header:before {
 
 .reason__box {
   position: relative;
-  margin-bottom: 40px;
 }
 
 .reason__box:nth-child(1) {
