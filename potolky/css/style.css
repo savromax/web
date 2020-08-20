@@ -2509,6 +2509,9 @@ footer {
     font-size: 3.5vw;
     line-height: 4vw;
   }
+  .contacts__box:nth-child(1) div{
+    width: 71%;
+  }
   .contacts__box img {
     width: 18vw;
     margin: 0 5vw 0 0;
