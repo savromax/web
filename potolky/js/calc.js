@@ -3,18 +3,18 @@
  
         calculate();
  
-        jQuery('#calculator input').keyup(function() {
+        jQuery('.calc__form input').keyup(function() {
             this.value = this.value.replace(/[^0-9\.,]/g, '');
             this.value = this.value.replace(/[,]/, '.');
         });
-        jQuery('#calculator input, #calculator select').change(function() {
+        jQuery('.calc__form input, .calc__form select').change(function() {
             calculate();
         });
-        jQuery('#calculator input').keyup(function() {
+        jQuery('.calc__form input').keyup(function() {
             calculate();
         });
         function calculate() {
-      $('.calculator').each(function(key, val){
+      $('.calc__form').each(function(key, val){
         calcInputs = {};
             $(this).find('input, select').each(function(key, val){
                 name = $(this).attr('name');
@@ -66,8 +66,8 @@
         install = calcInputs.area * 170;
         total += install;
  
-            total += ' руб.';
-            jQuery(this).find('span.total').html(total);
+            total += ' ₽';
+            jQuery(this).find('span.calc__total').html(total);
       });
         }
  

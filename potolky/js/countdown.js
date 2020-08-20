@@ -45,7 +45,7 @@ function get_timer_639(string_was_639, string_sec_639) {
   $(".timerhello_639 p.result .result-second").text(sec_639);
 }
 function getfrominputs_639() {
-  string_was_639 = "Tue Aug 18 2020 00:00:00 GMT+0300 (Москва, стандартное время)";
+  string_was_639 = "Tue Aug 17 2020 00:00:00 GMT+0300 (Москва, стандартное время)";
   string_sec_639 = "86400900";
   get_timer_639(string_was_639, string_sec_639);
   setInterval(function () {
