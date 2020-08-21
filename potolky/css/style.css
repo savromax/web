@@ -106,6 +106,7 @@ header:before {
 }
 
 .nav__logo {
+  width: 235px;
   padding-top: 20px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
