@@ -94,7 +94,6 @@ header:before {
 
 .navbar {
   margin: 0 auto;
-  padding-bottom: 8px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -107,7 +106,7 @@ header:before {
 }
 
 .nav__logo {
-  padding-top: 11px;
+  padding-top: 20px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -123,7 +122,7 @@ header:before {
   margin-top: -23px;
   padding-top: 20px;
   padding-right: 8px;
-  padding-left: 26px;
+  padding-left: 25px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -314,12 +313,9 @@ header:before {
 
 .header__painter {
   position: absolute;
-  left: 70px;
-  top: -126px;
-  right: 0%;
-  bottom: auto;
+  left: 40px;
+  top: -12vw;
   z-index: 1;
-  max-width: 246px;
 }
 
 .header__gift {
@@ -867,6 +863,10 @@ header:before {
   width: 65px;
 }
 
+.calc__value input:before {
+  
+}
+
 .calc__value p, .calc__total-box p {
   flex-shrink: 0;
   margin-right: 15px;
@@ -1369,7 +1369,7 @@ footer {
     margin-top: -2vw;
   }
   .header__painter {
-    top: -8.5vw;
+    top: -10vw;
   }
 }
 
@@ -1378,7 +1378,7 @@ footer {
     margin-top: -4vw;
   }
   .header__painter {
-    top: -7vw;
+    top: -8vw;
   }
 }
 
@@ -1391,9 +1391,6 @@ footer {
   }
   .div-block-4 {
     margin-left: 75px;
-  }
-  .header__painter {
-    top: -10.5vw;
   }
 }
 
@@ -1533,7 +1530,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     margin-top: -5px;
-    margin-right: 20px;
+    margin-right: 10px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
@@ -1717,7 +1714,7 @@ footer {
     padding-left: 15px;
   }
   .nav__logo {
-    width: 115px;
+    width: 160px;
   }
   .nav__container {
     padding-left: 15px;
@@ -2190,10 +2187,7 @@ footer {
     max-width: 253px;
   }
   .nav__logo {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
+    width: 30vw;
   }
   .header {
     height: 100vh; 
@@ -2416,8 +2410,8 @@ footer {
     width: 55%;
     padding-left: 22px;
   }
-  .nav__link-box {
-    margin-right: 10px;
+  .nav__logo {
+    width: 34vw;
   }
 
   .reason__box {
