@@ -2217,7 +2217,7 @@ footer {
   }
   
   .order {
-    padding: 60px 0 70px;
+    padding: 20vw 0;
   }
   .order__box, .order__box:nth-child(2) {
     width: 100%;
@@ -2234,7 +2234,10 @@ footer {
     font-size: 22px;
     line-height: 27px;
   }
-
+  
+  .advantages {
+    padding: 13vw 0 10vw;
+  }
   .advantages__wrapper {
     flex-direction: column;
     margin-top: 10px;
@@ -2301,10 +2304,11 @@ footer {
   }
 
   .timer {
-    padding-bottom: 70px;
+    padding-bottom: 12vw;
   }
   .timer__wrapper {
     max-width: 85%;
+    margin: 0 auto 28vw;
   }
   
   .reviews:before {
@@ -2355,10 +2359,11 @@ footer {
     padding: 0 55px 0 70px;
   }
   .contacts {
-    padding-bottom: 50px;
+    padding: 12vw 0 15vw;
   }
   .contacts__wrapper {
     flex-direction: column;
+    margin: 12vw 0 0;
   }
   .contacs__content {
     flex-direction: column;
