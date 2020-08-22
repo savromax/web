@@ -557,7 +557,7 @@ header:before {
 }
 
 .advantage__box {
-  width: 27.5%;
+  width: 28%;
   margin-top: 35px;
 }
 
@@ -759,7 +759,6 @@ header:before {
 .calc .container {
   display: flex;
   justify-content: space-between;
-  align-items: end;
 }
 
 .calc__box {
