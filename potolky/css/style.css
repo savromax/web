@@ -1176,8 +1176,6 @@ line-height: 15px;
 
 .reviews .slick-slide.slick-current {
   margin: 0;
-  background: transparent;
-  box-shadow: none;
   transform: scale(1);
 }
 
@@ -1341,6 +1339,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer__logo {
+  max-width: 175px;
 }
 
 .footer__text {
