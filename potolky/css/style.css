@@ -1324,7 +1324,19 @@ line-height: 15px;
   width: 50%;
 }
 
+.ymaps-2-1-77-balloon-content__header {
+  font-size: 14px !important;
+  margin-bottom: 10px !important;
+}
 
+.ymaps-2-1-77-balloon__content img {
+  float: left;
+  margin-right: 15px;
+}
+
+.ymaps-2-1-77-balloon__content p {
+  line-height: 16px;
+}
 
 /*-- Footer --*/
 footer {  
