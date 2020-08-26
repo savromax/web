@@ -1367,12 +1367,12 @@ footer {
   line-height: 24px;
 }
 
-.footer__socials img {
-  width: 52px;
+.footer__socials a:nth-child(1), .footer__socials a:nth-child(2) {
+  margin-right: 21px;
 }
 
-.footer__socials img:nth-child(1), .footer__socials img:nth-child(2) {
-  margin-right: 21px;
+.footer__socials img {
+  width: 52px;
 }
 
 
