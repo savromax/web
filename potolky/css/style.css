@@ -1,4 +1,4 @@
-*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{margin:0}h1,h2,h3,h4,h5,h6{margin:0}ol,p,ul{padding:0;margin:0}a:active,a:hover{outline:0}b,strong{font-weight:700}img{max-width:100%;vertical-align:middle;display:inline-block;border:0}:focus{outline:0}button,input,select,textarea{color:inherit;font:inherit;margin:0;border:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}textarea{overflow:auto}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{margin:0}h1,h2,h3,h4,h5,h6{margin:0}ol,p,ul{padding:0;margin:0}a:active,a:hover{outline:0}b,strong{font-weight:700}img{max-width:100%;vertical-align:middle;display:inline-block;border:0}:focus{outline:0}button,input,select,textarea{color:inherit;font:inherit;margin:0;border:0}input,select,textarea{-webkit-appearance: none;}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}textarea{overflow:auto}
 
 body {
   font-family: Montserrat, sans-serif;
@@ -844,8 +844,7 @@ header:before {
   margin-bottom: 25px; 
 }
 
-.calc__value select, .calc__value input {
-  padding: 8px 0 8px;
+.calc__value select, .calc__value input {  
   background: #F8DA3A;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -856,15 +855,12 @@ header:before {
 
 .calc__value select {
   width: 170px;
-  padding: 8px 0 8px 13px;
+  padding: 8px 13px;
 }
 
 .calc__value input {
   width: 65px;
-}
-
-.calc__value input:before {
-  
+  padding: 8px 0 8px;
 }
 
 .calc__value p, .calc__total-box p {
