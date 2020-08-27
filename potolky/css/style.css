@@ -843,23 +843,24 @@ header:before {
   margin-bottom: 25px; 
 }
 
-.calc__value select, .calc__value input {  
-  background: #F8DA3A;
+.calc__value select, .calc__value input {    
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   color: #32313F;
-  border: none;
-  text-align: center;
+  border: none;  
 }
 
 .calc__value select {
   width: 170px;
   padding: 8px 13px;
+  background: url('../images/select-arrow.png') 95% 50% no-repeat #F8DA3A;
 }
 
 .calc__value input {
   width: 65px;
   padding: 8px 0 8px;
+  background: #F8DA3A;
+  text-align: center;
 }
 
 .calc__value p, .calc__total-box p {
@@ -2578,7 +2579,7 @@ footer {
     url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
     url('../fonts/Montserrat-SemiBold.woff') format('woff'),
     url('../fonts/Montserrat-SemiBold.otf') format('opentype');
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
