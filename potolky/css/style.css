@@ -106,8 +106,8 @@ header:before {
 }
 
 .nav__logo {
-  width: 235px;
-  padding-top: 20px;
+  width: 173px;
+  padding-top: 13px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -119,7 +119,7 @@ header:before {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 81px;
+  height: 108px;
   margin-top: -23px;
   padding-top: 20px;
   padding-right: 8px;
