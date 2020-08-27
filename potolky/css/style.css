@@ -81,8 +81,7 @@ header:before {
   background-color: #fff;
 }
 
-.nav__logo {
-  width: 173px;
+.nav__logo {  
   padding-top: 13px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
