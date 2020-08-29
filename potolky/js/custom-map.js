@@ -1,4 +1,6 @@
-ymaps.ready(function () {
+
+
+function getYaMap() {
     var myMap = new ymaps.Map("map", {
             center: [55.76, 37.64],
             zoom: 10
@@ -181,4 +183,4 @@ ymaps.ready(function () {
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }));
-});
+}
