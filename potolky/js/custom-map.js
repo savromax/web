@@ -46,13 +46,13 @@ function getYaMap() {
     }, {
         // Описываем опции геообъекта.
         // Цвет заливки.
-        fillColor: '#0036cc',
+        fillColor: '#fff',
         // Цвет обводки.
-        //strokeColor: '#0000FF',
+        strokeColor: '#cc0000',
         // Общая прозрачность (как для заливки, так и для обводки).
-        opacity: 0.5,
+        opacity: 0.8,
         // Ширина обводки.
-        //strokeWidth: 5,
+        strokeWidth: 1,
         // Стиль обводки.
         //strokeStyle: 'shortdash'
     });
