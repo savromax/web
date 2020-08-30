@@ -6,6 +6,13 @@ function getYaMap() {
             searchControlProvider: 'yandex#search'
         });
 
+    myMap.behaviors.disable('scrollZoom');
+    myMap.controls.remove('typeSelector')
+    .remove('searchControl')
+    .remove('trafficControl')
+    .remove('geolocationControl')
+    .remove('scaleLine');
+
     
     // Создаем многоугольник, используя класс GeoObject.
     var myGeoObject = new ymaps.GeoObject({
