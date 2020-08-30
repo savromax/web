@@ -1,17 +1,17 @@
 function getYaMap() {
     var myMap = new ymaps.Map("map", {
-            center: [55.680970, 37.826319],
-            zoom: 9
-        }, {
-            searchControlProvider: 'yandex#search'
+            center: [55.686714, 37.766138],
+            zoom: 9,
+            controls: ['zoomControl', 'fullscreenControl', 'rulerControl']
+        }, {            
+            zoomControlSize: 'small',
+            zoomControlPosition: {
+                top: '10px',
+                left: '10px'
+            }
         });
 
     myMap.behaviors.disable('scrollZoom');
-    myMap.controls.remove('typeSelector')
-    .remove('searchControl')
-    .remove('trafficControl')
-    .remove('geolocationControl')
-    .remove('scaleLine');
     
     // Создаем многоугольник, используя класс GeoObject.
     var myGeoObject = new ymaps.GeoObject({
@@ -67,6 +67,16 @@ function getYaMap() {
     myMap.geoObjects.add(myGeoObject);
 
     myMap.geoObjects        
+        .add(new ymaps.Placemark([55.754683, 37.75652500000001], {
+            balloonContentHeader: 'Наш офис: Плеханова 4А — ООО «ГК Ремонт Выгодно»',
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/logo.png">' +
+            '<p>Всегда рады встретить Вас в нашем офисе и ответить на все Ваши вопросы.</p>'
+        }, {
+            iconLayout: 'default#imageWithContent',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/favicon-7.ico',
+            iconImageSize: [30, 30],
+            iconImageOffset: [-10, -10]    
+        }))
         .add(new ymaps.Placemark([55.7691937, 37.59000209999999], {
             balloonContentHeader: '4-я Гражданская улица, д.39/5',
             balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
@@ -224,16 +234,6 @@ function getYaMap() {
         }, {
             iconLayout: 'default#imageWithContent',
             iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
-            iconImageSize: [30, 30],
-            iconImageOffset: [-10, -10]    
-        }))
-        .add(new ymaps.Placemark([55.754683, 37.75652500000001], {
-            balloonContentHeader: 'Наш офис: Плеханова 4А — ООО «ГК Ремонт Выгодно»',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/logo.png">' +
-            '<p>Всегда рады встретить Вас в нашем офисе и ответить на все Ваши вопросы.</p>'
-        }, {
-            iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/favicon-7.ico',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }));
