@@ -12,7 +12,6 @@ function getYaMap() {
     .remove('trafficControl')
     .remove('geolocationControl')
     .remove('scaleLine');
-
     
     // Создаем многоугольник, используя класс GeoObject.
     var myGeoObject = new ymaps.GeoObject({
