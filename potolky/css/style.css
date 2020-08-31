@@ -37,33 +37,11 @@ a {
   color: #F8DA3A;
 }
 
-/*input::-webkit-input-placeholder {color: #000;}
-input:focus::-webkit-input-placeholder {visibility: hidden;}*/
+input::-webkit-input-placeholder {color: #000;}
+input:focus::-webkit-input-placeholder {visibility: hidden;}
 
 
-/*-- Header --*/
-header {
-  padding: 110px 0 72px;
-  background-color: #fde151;
-  position: relative;
-}
-
-header .container {
-  position: relative;
-  width: 1100px;
-}
-
-header .container:before {
-  content: '';
-  position: absolute;
-  top: -110px;
-  left: -20px;
-  width: 437px;
-  height: 41px;  
-  background: url("../images/wave-header.png") 50% 50% / cover no-repeat;
-  z-index: 2;
-}
-
+/*-- Navbar --*/
 nav {
   margin: 0 auto 30px;
   justify-content: space-between;
@@ -93,6 +71,10 @@ nav .container {
   background-color: #f3f4f9;
 }
 
+.nav__link-box {
+  display: none;  
+}
+
 .nav__menu p {
   margin-right: 2.3vw;
   color: #32313f;
@@ -103,6 +85,46 @@ nav .container {
 .nav__menu span {
   color: #b5b4c2;
   font-weight: 500;
+}
+
+
+/*-- Header --*/
+header {
+  padding: 110px 0 72px;
+  background-color: #fde151;
+  position: relative;
+}
+
+header .container {
+  position: relative;
+  width: 1100px;
+}
+
+header .container:before {
+  content: '';
+  position: absolute;
+  top: -110px;
+  left: -20px;
+  width: 437px;
+  height: 41px;  
+  background: url("../images/wave-header.png") 50% 50% / cover no-repeat;
+  z-index: 2;
+}
+
+.header__master {
+  position: absolute;
+  left: -15px;
+  top: -76px;
+  z-index: 1;
+}
+
+.header__dots {
+  position: absolute;
+  left: 22px;
+  top: 69px;
+  right: auto;
+  bottom: auto;
+  z-index: 0;
 }
 
 .header__box {  
@@ -183,26 +205,6 @@ nav .container {
   z-index: 2;
   width: 520px;
   max-width: 100%;
-}
-
-.header__dots {
-  position: absolute;
-  left: 22px;
-  top: 69px;
-  right: auto;
-  bottom: auto;
-  z-index: 0;
-}
-
-.header__master {
-  position: absolute;
-  left: -15px;
-  top: -76px;
-  z-index: 1;
-}
-
-.nav__link-box {
-  display: none;  
 }
 
 .w-form-done {
@@ -1331,9 +1333,6 @@ footer .container {
 }
 
 @media screen and (max-width: 991px) {
-  header {
-    padding-bottom: 45px;
-  }
   .nav__menu {
     margin-top: -16px;
     padding-top: 15px;
@@ -1342,6 +1341,25 @@ footer .container {
   }  
   .nav__menu span {
     display: block;
+  }
+  header {
+    padding-top: 75px;
+    padding-bottom: 45px;
+  }
+  header .container:before {
+    top: -75px;
+  }
+  .header__master {
+    width: 123px;
+    left: auto;
+    top: -15px;
+    right: 25px;
+  }
+  .header__dots {
+    left: auto;
+    top: 148px;
+    right: 20px;
+    max-width: 160px;
   }
   .header__wave {
     height: 11vw;
@@ -1371,18 +1389,8 @@ footer .container {
     -ms-flex-order: 2;
     order: 2;
   }
-  .header__dots {
-    left: auto;
-    top: 148px;
-    right: 20px;
-    max-width: 160px;
-  }
-  .header__master {
-    width: 123px;
-    left: auto;
-    top: -15px;
-    right: 25px;
-  }
+  
+  
   .reason:before {
     content: '';
     position: absolute;
