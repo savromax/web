@@ -37,11 +37,11 @@ a {
   color: #F8DA3A;
 }
 
-::-webkit-input-placeholder {color: #000;}
+/*::-webkit-input-placeholder {color: #000;}
 ::-moz-placeholder {color: #000;}
 :-moz-placeholder {color: #000;}
 :focus::-webkit-input-placeholder {visibility: hidden;}
-:focus::-moz-placeholder {visibility: hidden;}
+:focus::-moz-placeholder {visibility: hidden;}*/
 
 
 /*-- Navbar --*/
