@@ -39,8 +39,8 @@
 					<div class="header__form">
 						<form id="email-form" name="email-form">
 							<p>Получите скидку 20% на ваш заказ</p>
-							<input type="text" maxlength="256" id="name" name="Имя" placeholder="Ваше имя"  autocomplete="off" required="required">
-							<input type="tel" class="phone-mask" id="phone" name="Телефон" placeholder="Ваш телефон"  autocomplete="off" required="required">
+							<input type="text" maxlength="256" id="name" name="Имя" placeholder="Ваше имя" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваше имя'" autocomplete="off" required="required">
+							<input type="tel" class="phone-mask" id="phone" name="Телефон" placeholder="Ваш телефон" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваш телефон'" autocomplete="off" required="required">
 							<button type="submit" data-wait="Ожидайте..." class="submit-button">Получить</button>
 						</form>
 						<div class="w-form-done">
