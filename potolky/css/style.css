@@ -1369,7 +1369,13 @@ footer .container {
   }
   .header__form {
     margin: 0 0 100px auto;
-    width: 400px;    
+    width: 400px;
+    text-align: center; 
+  }
+  .header__form button {
+    width: 215px;
+    margin-top: 20px;
+    float: none;
   }
   .header__gift {
     width: 450px;
