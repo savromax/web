@@ -22,11 +22,14 @@
 				<a href="/" class="nav__logo">
 					<img src="images/logo.png" alt="">
 				</a>
-				<div class="nav__menu">
-					<div class="nav__link-box"><a href="tel:+7(495)642-34-13"><img src="images/phone-icon.png" alt=""></a><a href="#contacts"><img src="images/map-icon.png" alt=""></a></div>
+				<div class="nav__menu">					
 					<p><span>Время работы:</span> с 8:00 до 23:00 без выходных</p>
 					<p class="mobile--hide"><span>Телефон:</span> <a href="tel:+7(495)642-34-13">+7 (495) 642-34-13</a></p>
 					<p class="mobile--hide"><span>Адрес:</span> <a href="#contacts">г. Москва, ул. Плеханова, 4А</a></p>
+					<div class="nav__link-box">
+						<a href="tel:+7(495)642-34-13"><img src="images/phone-icon.png" alt=""></a>
+						<a href="#contacts"><img src="images/map-icon.png" alt=""></a>
+					</div>
 				</div>
 			</div>
 		</nav>
@@ -36,20 +39,18 @@
 				<img src="images/dots.svg" alt="" class="header__dots">
 				<div class="header__box">
 					<h1>Производство и монтаж натяжных потолков</h1>
-					<div class="header__form">
-						<form id="email-form" name="email-form">
-							<p>Получите скидку 20% на ваш заказ</p>
-							<input type="text" maxlength="256" id="name" name="Имя" placeholder="Ваше имя" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваше имя'" autocomplete="off" required="required">
-							<input type="tel" class="phone-mask" id="phone" name="Телефон" placeholder="Ваш телефон" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваш телефон'" autocomplete="off" required="required">
-							<button type="submit" data-wait="Ожидайте..." class="submit-button">Получить</button>
-						</form>
-						<div class="w-form-done">
+					<form class="header__form" id="header__form" name="email-form">
+						<p>Получите скидку 20% на ваш заказ</p>
+						<input type="text" maxlength="256" id="name" name="Имя" placeholder="Ваше имя" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваше имя'" autocomplete="off" required="required">
+						<input type="tel" class="phone-mask" id="phone" name="Телефон" placeholder="Ваш телефон" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваш телефон'" autocomplete="off" required="required">
+						<button type="submit" data-wait="Ожидайте..." class="submit-button">Получить</button>
+						<!--<div class="w-form-done">
 							<div>Спасибо! Ваша форма была отправлена!</div>
 						</div>
 						<div class="w-form-fail">
 							<div>Ошибка отправки!</div>
-						</div>
-					</div>
+						</div>-->
+					</form>
 					<p class="header__gift">При заказе сразу 2-х потолоков 3-й в подарок!</p>
 					<img src="images/couch.png" alt="" class="header__couch">
 				</div>
