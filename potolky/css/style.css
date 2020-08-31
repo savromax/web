@@ -37,8 +37,10 @@ a {
   color: #F8DA3A;
 }
 
-input::-webkit-input-placeholder {color: #000;}
-input:focus::-webkit-input-placeholder {visibility: hidden;}
+::-webkit-input-placeholder {color: #000;}
+::-moz-placeholder {color: #000;}
+:focus::-webkit-input-placeholder {visibility: hidden;}
+:focus::-moz-placeholder {visibility: hidden;}
 
 
 /*-- Navbar --*/
@@ -1350,10 +1352,7 @@ footer .container {
     top: -75px;
   }
   .header__master {
-    width: 123px;
-    left: auto;
-    top: -15px;
-    right: 25px;
+    top: -40px;
   }
   .header__dots {
     left: auto;
@@ -1389,8 +1388,6 @@ footer .container {
     -ms-flex-order: 2;
     order: 2;
   }
-  
-  
   .reason:before {
     content: '';
     position: absolute;
