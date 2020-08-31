@@ -20,25 +20,29 @@
 		<nav>
 			<div class="container">
 				<a href="/" class="nav__logo">
-					<img src="images/logo.png" alt="" class="image-8">
+					<img src="images/logo.png" alt="">
 				</a>
 				<div class="nav__menu">
-					<div class="nav__link-box"><a href="tel:+7(495)642-34-13" class="image-9"><img src="images/phone-icon.png" alt=""></a><a href="#contacts"><img src="images/map-icon.png" alt=""></a></div>
-					<div class="text-block"><span class="span">Время работы:</span> с 8:00 до 23:00 без выходных</div>
-					<div class="text-block hide"><span class="span">Телефон:</span> <a href="tel:+7(495)642-34-13">+7 (495) 642-34-13</a></div>
-					<div class="text-block hide"><span class="span">Адрес:</span>  <a href="#">г. Москва, ул. Плеханова, 4А</a></div>
+					<div class="nav__link-box"><a href="tel:+7(495)642-34-13"><img src="images/phone-icon.png" alt=""></a><a href="#contacts"><img src="images/map-icon.png" alt=""></a></div>
+					<p><span>Время работы:</span> с 8:00 до 23:00 без выходных</p>
+					<p class="mobile--hide"><span>Телефон:</span> <a href="tel:+7(495)642-34-13">+7 (495) 642-34-13</a></p>
+					<p class="mobile--hide"><span>Адрес:</span> <a href="#contacts">г. Москва, ул. Плеханова, 4А</a></p>
 				</div>
 			</div>
 		</nav>
 		<header>			
-			<div class="container"><img src="images/master.png" alt="" class="header__master"><img src="images/dots.svg" alt="" class="header__dots">
+			<div class="container">
+				<img src="images/master.png" alt="" class="header__master">
+				<img src="images/dots.svg" alt="" class="header__dots">
 				<div class="header__box">
 					<h1>Производство и монтаж натяжных потолков</h1>
 					<div class="header__form">
-						<div id="email-form" name="email-form" data-name="Email Form">
-							<div class="text-block-2">Получите скидку 20% на ваш заказ</div>
-							<div class="div-block-3"><input type="text" class="text-field first" maxlength="256" name="Имя" data-name="Имя" placeholder="Ваше имя" id="name" required=""><input type="text" class="text-field phone-mask" maxlength="256" name="Телефон" data-name="Телефон" placeholder="Ваш телефон" id="phone" required=""><button type="submit" value="Получить" data-wait="Ожидайте..." class="submit-button">Получить</button></div>
-						</div>
+						<form id="email-form" name="email-form">
+							<p>Получите скидку 20% на ваш заказ</p>
+							<input type="text" maxlength="256" id="name" name="Имя" placeholder="Ваше имя"  autocomplete="off" required="required">
+							<input type="tel" class="phone-mask" id="phone" name="Телефон" placeholder="Ваш телефон"  autocomplete="off" required="required">
+							<button type="submit" data-wait="Ожидайте..." class="submit-button">Получить</button>
+						</form>
 						<div class="w-form-done">
 							<div>Спасибо! Ваша форма была отправлена!</div>
 						</div>
@@ -46,9 +50,9 @@
 							<div>Ошибка отправки!</div>
 						</div>
 					</div>
-					<div class="div-block-4"><img src="images/present.png" alt="" class="header__gift">
-						<div class="text-block-3">При заказе сразу 2-х потолоков 3-й в подарок!</div>
-					</div><img src="images/couch.png" alt="" class="header__couch"></div>
+					<p class="header__gift">При заказе сразу 2-х потолоков 3-й в подарок!</p>
+					<img src="images/couch.png" alt="" class="header__couch">
+				</div>
 			</div>
 		</header>
 
@@ -112,17 +116,17 @@
 					<div class="order__wrapper">
 						<div class="order__box">
 							<img src="images/calculator.png" alt="Расчет">
-							<div class="order__number">01</div>
+							<span class="order__number">01</span>
 							<p>Делаете расчет у нас на сайте или по телефону всего за 5 минут</p>							
 						</div>
 						<div class="order__box">
 							<img src="images/roulette.png" alt="Замер">
-							<div class="order__number">02</div>
+							<span class="order__number">02</span>
 							<p>Мы приезжаем к вам на&nbsp;бесплатный замер и&nbsp;выбор материала.</p>							
 						</div>
 						<div class="order__box">
 							<img src="images/clock.png" alt="Быстрые сроки">
-							<div class="order__number">03</div>
+							<span class="order__number">03</span>
 							<p>Всего через пару дней у&nbsp;вас установлен замечательный потолок.</p>							
 						</div>
 					</div>
@@ -294,32 +298,32 @@
 						<img src="images/potolok.png" alt="Потолок">
 					</div>
 					<form action="" class="calc__form">
-					  <div class="title">Рассчёт <span class="yellow">стоимости</span></div>
-				    <div class="calc__value">
-				    	<p>Вид потолка:</p>
-				    	<select name="type" placeholder="Выберите">
-                  <option value="standart">Стандартный</option>
-                  <option value="natyagnoy">Натяжной</option>
-                  <option value="podvesnoy">Подвесной</option>
-                  <option value="gipsokarton">Гипсокартонный</option>
-                  <option value="reechniy">Реечный</option>
-              </select>
-				    </div>
-				    <div class="calc__value">
-				    	<p>Площадь потолка:</p>
-				    	<input name="area" type="text" value="10">
-				    	<span>м²</span>
-				    </div>
-				    <div class="calc__value">
-					    <p>Точек освещения:</p>
-					   <input name="corners" type="text" value="1">
-					   <span>шт.</span>
-				    </div>					 
-				    <div class="calc__total-box">
-				    	<p>Цена <span class="yellow">для Вас: </span></p>
-				    	<span class="calc__total">2990 ₽</span>
-				    </div>
-					  <button>Заказать!</button>
+					  <div class="calc__title">Рассчёт <span class="yellow">стоимости</span></div>
+					    <div class="calc__value">
+					    	<p>Вид потолка:</p>
+					    	<select name="type" placeholder="Выберите">
+				                <option value="standart">Стандартный</option>
+				                <option value="natyagnoy">Натяжной</option>
+				                <option value="podvesnoy">Подвесной</option>
+				                <option value="gipsokarton">Гипсокартонный</option>
+				                <option value="reechniy">Реечный</option>
+				            </select>
+					    </div>
+					    <div class="calc__value">
+					    	<p>Площадь потолка:</p>
+					    	<input name="area" type="text" value="10">
+					    	<span>м²</span>
+					    </div>
+					    <div class="calc__value">
+						    <p>Точек освещения:</p>
+						   <input name="corners" type="text" value="1">
+						   <span>шт.</span>
+					    </div>					 
+					    <div class="calc__total-box">
+					    	<p>Цена <span class="yellow">для Вас: </span></p>
+					    	<span class="calc__total">2990 ₽</span>
+					    </div>
+					 	<button>Заказать!</button>
 					</form>
 				</div>
 			</section>
@@ -353,9 +357,9 @@
 					</div>
 					<div class="timer__form">
 						<form>
-							<input type="text" class="timer__form-input w-input" maxlength="256" data-name="Ваше имя" placeholder="Ваше имя" required="" name="Ваше имя">
-							<input type="phone" class="calc-form w-input" maxlength="256" data-name="Ваш телефон" placeholder="Ваш телефон" required="" name="Ваш телефон">
-							<input type="submit" value="Отправить" data-wait="Подождите" class="w-button">
+							<input type="text" class="timer__form-input w-input" maxlength="256" name="Имя" placeholder="Ваше имя" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваше имя'" autocomplete="off" required="required">
+							<input type="tel" class="calc-form phone-mask" name="Телефон" placeholder="Ваш телефон" onFocus="this.placeholder=''" onBlur="this.placeholder='Ваш телефон'" autocomplete="off" required="required">
+							<button>Отправить</button>
 							<p>Нажимая на кнопку вы даёте согласие на обработку персональных данных</p>
 						</form>
 					</div>

@@ -93,3 +93,10 @@ $('.tab__content').on("lazyLoaded", function(e, slick, image, imageSource) {
   parentSlide.css("background-image", 'url("' + imageSource + '")'); //replace with background instead
   image.remove(); // remove source
 });
+
+
+
+/*-- Phone Mask --*/
+$('.phone-mask').mask('+7(999)999-99-99').click(function () {
+	$(this).get(0).setSelectionRange(3, 3);
+});
