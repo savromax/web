@@ -73,57 +73,57 @@ function getYaMap() {
             '<p>Всегда рады встретить Вас в нашем офисе и ответить на все Ваши вопросы.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/favicon-7.ico',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.7691937, 37.59000209999999], {
-            balloonContentHeader: '4-я Гражданская улица, д.39/5',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentHeader: 'ул.Гашека, д.9',
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-6.jpg">' +
+            '<p>Ремонт ванной комнаты и туалета под ключ: Этап №1 В первый день ремонта был произведён полный демонтаж в ванной комнате и туалете, а именно демонтированы и вынесены старая чугунная ванна и её смеситель, раковина, унитаз, светильники, дверные блоки</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))        
         .add(new ymaps.Placemark([55.6934269, 37.90677260000007], {
             balloonContentHeader: 'Комсомольский Проспект, д. 15',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +            
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-16.jpg">' +            
+            '<p>Ремонт ванной комнаты и туалета под ключ: Ванная комната 1.7 х 1.7 и туалет 0.85 х 1.1: Этап №1 Демонтаж труб водопровода и канализации Демонтаж смесителя ванны и унитаза Демонтаж гипсового воздуховода в туалете Демонтаж светильника Устройство перегородки из пеноблока с устройством проёма под люк невидимку в ревизионном шкафе</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.6970563, 37.56086800000003], {
             balloonContentHeader: 'Ленинский Проспект, д.56',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +            
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-8.jpg">' +            
+            '<p>При ремонте ванной комнаты и туалета под ключ, был сделан полный демонтаж: старые чугунная ванна,плитка, трубы водяные и канализационные, дверные блоки, штукатурка до кирпичного основания и т.д. После демонтажа полностью от стояка через коллектора скрытно разведена холодная и горячая вода, а также трубы канализации.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))        
         .add(new ymaps.Placemark([55.8577039, 37.619542000000024], {
             balloonContentHeader: 'ул.Олонецкая, д.25',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +            
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-3.jpg">' +            
+            '<p>При совмещении — ремонте ванной комнаты и туалета , в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете, плитка со стен и пола, дверные блоки</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.639373, 37.59856690000004], {
             balloonContentHeader: 'ул.Северное Чертаново, д.2/206',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-14.jpg">' +
+            '<p>Ремонт ванной комнаты и туалета под ключ: Этап №1 Демонтаж чугунной ванны Демонтаж унитаза (с сохранением) Демонтаж дверных блоков Демонтаж канализационных труб Демонтаж труб водопровода и канализации Демонтаж смесителя ванны Демонтаж полотенцесушителя Демонтаж светильников Демонтаж керамической плитки со стен и пола</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
@@ -133,107 +133,97 @@ function getYaMap() {
             '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.8624461, 37.521152400000005], {
             balloonContentHeader: 'ул.Солнечногорская, д. 25',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-4.jpg">' +
+            '<p>Ремонт ванной комнаты и туалета под ключ производился следующим образом. На первом этапе работ был сделан полный демонтаж:старой ванны, раковины, унитаза, плитки со стен и пола, дверных блоков и старых труб водоснабжения и канализации.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.7975917, 37.60089449999998], {
             balloonContentHeader: 'ул.Полковая, д.20',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-5.jpg">' +
+            '<p>Ремонт ванной комнаты и туалета под ключ: сделан полный демонтаж старой плитки со стен и пола, труб водопровода и канализации, дверных блоков и т.д. Новый водопровод был сделан полипропиленовыми трубами, а система водоотведения-канализации заменена на новые трубы ПВХ скрытно в штробе от стояков</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.875685, 37.724343999999974], {
             balloonContentHeader: 'ул.Проходчиков, д.10/2',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-2.jpg">' +
+            '<p>Был сделан полный демонтаж сантехнической кабины ванной комнаты и туалета. Выстроены новые перегородки из пазо-гребневого влагостойкого блока, сделаны системы ХВС и ГВС из труб ПП и канализации трубами ПВХ. Стены и пол были подготовлены-выровнены и покрыты гидроизоляцией, после чего были облицованы керамической плиткой.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.6367025, 37.67295319999994], {
             balloonContentHeader: 'ул.Кантемировская, д.17',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-13.jpg">' +
+            '<p>Ремонт ванной комнаты и туалета под ключ — перепланировка в результате которой получился совмещённый санузел: На первом этапе работ был сделан полный демонтаж всей сантехники, дверей, старых труб, старой плитки со стен и пола, перегородка м/у ванной комнатой и туалетом.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.537196, 37.509476800000016], {
             balloonContentHeader: 'ул.Кадырова, д 10/2',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-15.jpg">' +
+            '<p>Ремонт ванной комнаты и туалета под ключ  был сделан  в три этапа в течении двух недель. На первом этапе работ был сделан полный демонтаж старой плитки со стен и пола, ванной, раковины, дверных блоков, унитаза и светильников.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.69420029999999, 37.56652680000002], {
             balloonContentHeader: 'ул.Вавилова, д. 43',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-9.jpg">' +
+            '<p>Ремонт ванной комнаты и туалета под ключ был сделан следующим образом: На первом этапе ремонта:  Был произведён полный демонтаж всего старого сантехнического оборудования (ванна чугунная, раковина, унитаз, смесители), старые металлические трубы водопровода</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.6517582, 37.76994319999994], {
             balloonContentHeader: 'ул.Братиславская, д.33',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-12.jpg">' +
+            '<p>При ремонте ванной комнаты и туалета под ключ был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете, плитка со стен и пола.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.68084320000001, 37.66293429999996], {
             balloonContentHeader: 'Проспект Андропова, д.26',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-10.jpg">' +
+            '<p>Было произведено совмещение ванной комнаты и туалета и сделан совмещённый санузел. Были демонтированы чугунная ванна, раковина, унитаз, керамическая старая плитка со стен и пола, перегородка м/у ванной комнатой и туалетом, все старые трубы и дверные блоки. Дверной проём в туалет был заделан блоками.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }))
         .add(new ymaps.Placemark([55.663808, 37.77075100000002], {
             balloonContentHeader: 'ул.Белореченская, д.30',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
+            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-11.jpg">' +
+            '<p>По вопросу ремонта ванной комнаты обратились в ГК Ремонт-Выгодно, которую рекомендовали как надежную и опытную компанию. Могу сказать, что работой более, чем довольна: точно, быстро, недорого.</p>'
         }, {
             iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
-            iconImageSize: [30, 30],
-            iconImageOffset: [-10, -10]    
-        }))
-        .add(new ymaps.Placemark([55.7077578, 37.927521100000035], {
-            balloonContentHeader: 'ул.Рождественская, д.29',
-            balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image.jpg">' +
-            '<p>При совмещении — ремонте ванной комнаты и туалета, в результате получили совмещённый санузел под ключ. Работы проводились в следующей последовательности: был сделан полный демонтаж: старая чугунная ванна, унитаз, раковина, дверки и перегородка ревизионного шкафа в туалете</p>'
-        }, {
-            iconLayout: 'default#imageWithContent',
-            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/icon-1.png',
+            iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
         }));
