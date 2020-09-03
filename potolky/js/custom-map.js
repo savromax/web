@@ -1,15 +1,15 @@
 function getYaMap() {
     var myMap = new ymaps.Map("map", {
-            center: [55.686714, 37.766138],
-            zoom: 9,
-            controls: ['zoomControl', 'fullscreenControl', 'rulerControl']
-        }, {            
-            zoomControlSize: 'small',
-            zoomControlPosition: {
-                top: '10px',
-                left: '10px'
-            }
-        });
+        center: [55.686714, 37.766138],
+        zoom: 9,
+        controls: ['zoomControl', 'fullscreenControl', 'rulerControl']
+    }, {            
+        zoomControlSize: 'small',
+        zoomControlPosition: {
+            top: '10px',
+            left: '10px'
+        }
+    });
 
     myMap.behaviors.disable('scrollZoom');
     
