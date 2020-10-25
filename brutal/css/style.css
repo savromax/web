@@ -12,8 +12,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	color: #333333;
-	/*background: url(/img/pattern.png) repeat 0 0 #560009;*/
-	background-color: #560009;
+	background: url(../img/pattern.png) repeat 0 40px #560009;
+	background-size: 225px;
 	min-width: 480px;
 }
 a {
@@ -69,6 +69,10 @@ nav a {
 nav a:hover {
 	color: #E2846C;
 }
+.block1 {
+	margin-bottom: 175px;
+	padding-top: 115px;
+}
 .block1 .container {
 	position: relative;
 }
@@ -82,30 +86,6 @@ nav a:hover {
     background: radial-gradient(43.34% 50% at 50% 50%, rgba(255, 255, 255, 0.177) 0%, rgba(255, 255, 255, 0) 100%);
     mix-blend-mode: overlay;
     transform: rotate(-7.77deg);
-}
-.block1 {
-	margin-bottom: 220px;
-	padding-top: 115px;
-}
-.block1-icon {
-	height: 314px;
-	width: 416px;
-	position: absolute;
-	left: 70px;
-	top: -115px;
-	z-index: 2;
-}
-.block1-icon img {
-	height: 100%;
-	width: 100%;
-}
-.block1-bg {
-	background-image: url(../img/block1-bg.png);
-	height: 609px;
-	width: 1222px;
-	position: absolute;
-	left: 0px;
-	top: -245px;
 }
 .block1-content {
 	text-align: center;
@@ -123,12 +103,11 @@ nav a:hover {
 .block1-text {
 	font-size: 17px;
 	line-height: 20px;
-	font-weight: 500;
 	color: #FCEACF;
 	margin-bottom: 60px;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.01em;
 }
-.block1-btn {	
+.btn {	
 	width: 240px;
 	height: 56px;
 	display: flex;
@@ -139,17 +118,28 @@ nav a:hover {
 	align-content: center;
 	font-size: 15px;
 	font-weight: bold;
-	text-transform: uppercase;
-	background: #FCEACF;
+	text-transform: uppercase;	
 	border-radius: 10px;
 }
-.block1-btn:hover {
+.yellow-btn {
+	border: 1px solid #EDC38D;
+	color: #EDC38D;
+}
+.yellow-btn:hover, .white-btn:hover {
 	color: #030303;
-	background-color: #F1A44D;
-	border-top-color: #F1A44D;
-	border-right-color: #F1A44D;
-	border-bottom-color: #F1A44D;
-	border-left-color: #F1A44D;
+	background-color: #FCEACF;
+}
+.white-btn {
+	border: 1px solid #FAFAFA;
+	color: #FAFAFA;
+}
+.black-btn {
+	border: 1px solid #333;
+	color: #333;
+}
+.black-btn:hover {
+	color: #fff;
+	background-color: #333;
 }
 .cnt {
 	display: flex;
@@ -161,7 +151,7 @@ nav a:hover {
 }
 .block1-image {
 	position: absolute;
-	right: 0px;
+	right: 65px;
 	bottom: -50px;
 }
 .block1-image span {
@@ -199,10 +189,8 @@ nav a:hover {
 	margin-bottom: 12px;
 }
 .block3-text {
-	font-size: 24px;
-	line-height: 28px;
-	font-weight: 500;
-	color: #F1A44D;
+	line-height: 24px;
+	color: #FCEACF;
 	text-align: center;
 	margin-bottom: 120px;
 }
@@ -221,20 +209,20 @@ nav a:hover {
 	width: 365px;
 }
 .block3-content img {
-	margin-bottom: 25px;
+	margin-bottom: 48px;
 }
 .block3-item-title {
 	font-size: 24px;
 	line-height: 28px;
 	font-weight: 500;
-	color: #F1A44D;
+	color: #EDC38D;
 	margin-bottom: 25px;
 }
 .block3-content p {
 	font-size: 17px;
 	line-height: 24px;
-	color: #DAC9B5;
-	margin-bottom: 56px;
+	color: #F0DEDE;
+	margin-bottom: 48px;
 }
 .block3-block:nth-child(2n) .block3-content {
 	margin-right: 0px;
@@ -540,21 +528,6 @@ nav a:hover {
 	line-height: 24px;
 	margin-bottom: 32px;
 }
-.about-btn {
-	color: #333333;
-	border-top-color: #333333;
-	border-right-color: #333333;
-	border-bottom-color: #333333;
-	border-left-color: #333333;
-}
-.about-btn:hover {
-	color: #FFF;
-	background-color: #333333;
-	border-top-color: #333333;
-	border-right-color: #333333;
-	border-bottom-color: #333333;
-	border-left-color: #333333;
-}
 .info {
 	padding-top: 120px;
 	margin-bottom: 184px;
@@ -782,6 +755,9 @@ footer {
 }
 .footer-block a:hover {
 	text-decoration: underline;
+}
+.footer-block .politika {
+	font-size: 15px;
 }
 .info-item-top {
 	background-color: #063099;
