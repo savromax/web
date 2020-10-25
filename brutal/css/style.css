@@ -12,6 +12,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	color: #333333;
+	/*background: url(/img/pattern.png) repeat 0 0 #560009;*/
 	background-color: #560009;
 	min-width: 480px;
 }
@@ -71,6 +72,17 @@ nav a:hover {
 .block1 .container {
 	position: relative;
 }
+.block1 .container:before {
+	content: '';
+	position: absolute;
+    width: 841.28px;
+    height: 297.63px;
+    left: -135px;
+    top: -87px;
+    background: radial-gradient(43.34% 50% at 50% 50%, rgba(255, 255, 255, 0.177) 0%, rgba(255, 255, 255, 0) 100%);
+    mix-blend-mode: overlay;
+    transform: rotate(-7.77deg);
+}
 .block1 {
 	margin-bottom: 220px;
 	padding-top: 115px;
@@ -112,13 +124,13 @@ nav a:hover {
 	font-size: 17px;
 	line-height: 20px;
 	font-weight: 500;
-	color: #F1A44D;
+	color: #FCEACF;
 	margin-bottom: 60px;
+	letter-spacing: 0.05em;
 }
-.block1-btn {
-	height: 56px;
+.block1-btn {	
 	width: 240px;
-	border: 1px solid #F1A44D;
+	height: 56px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -128,7 +140,8 @@ nav a:hover {
 	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #F1A44D;
+	background: #FCEACF;
+	border-radius: 10px;
 }
 .block1-btn:hover {
 	color: #030303;
