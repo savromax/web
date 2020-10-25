@@ -119,6 +119,7 @@ nav a:hover {
 	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;	
+	line-height: 24px;
 	border-radius: 10px;
 }
 .yellow-btn {
@@ -265,7 +266,7 @@ nav a:hover {
 }
 .order-text {
 	line-height: 24px;
-	margin-bottom: 50px;
+	margin-bottom: 58px;
 }
 .order-blocks {
 	margin-bottom: 50px;
@@ -326,8 +327,8 @@ nav a:hover {
 	align-content: center;
 }
 .pay-blocks img {
-	margin-right: 40px;
-	margin-left: 40px;
+	margin-right: 25px;
+	margin-left: 25px;
 }
 .faq-info {
 	display: flex;
@@ -344,40 +345,42 @@ nav a:hover {
 	margin-left: 90px;
 	font-size: 24px;
 	line-height: 28px;
-	color: #E28C28;
+	color: #560009;
 	font-weight: 500;
 }
 .faq-quote-left {
-	background-image: url(../img/faq-quote-left.png);
-	height: 53px;
-	width: 65px;
-	left: -35px;
-	top: -70px;
 	position: absolute;
+	background-image: url(../img/quote-burgundy.svg);
+	width: 65px;
+	height: 53px;	
+	left: -33px;
+	top: -65px;	
 }
 .faq-quote-left2 {
-	background-image: url(../img/faq-quote-left2.png);
+	position: absolute;
+	background-image: url(../img/quote-burgundy-small.svg);
 	height: 18px;
 	width: 22px;
-	left: -12px;
-	top: -24px;
-	position: absolute;
+	left: -8px;
+	top: -24px;	
 }
 .faq-quote-right {
-	background-image: url(../img/faq-quote-right.png);
+	position: absolute;
+	background-image: url(../img/quote-burgundy.svg);
 	height: 53px;
 	width: 65px;
-	right: -35px;
-	bottom: -70px;
-	position: absolute;
+	right: -48px;
+	bottom: -65px;
+	transform: rotateZ(180deg);
 }
 .faq-quote-right2 {
-	background-image: url(../img/faq-quote-right2.png);
+	position: absolute;
+	background-image: url(../img/quote-burgundy-small.svg);
 	height: 18px;
 	width: 22px;
-	right: -12px;
-	bottom: -24px;
-	position: absolute;
+	right: -15px;
+	bottom: -22px;
+	transform: rotateZ(180deg);
 }
 .faq {
 	background: #FFFFFF;
@@ -680,7 +683,7 @@ nav a:hover {
 	font-size: 17px;
 	line-height: 24px;
 	font-weight: 500;
-	color: #F1A44D;
+	color: #FCEACF;
 	margin-bottom: 24px;
 }
 .quote-text2 {
@@ -688,39 +691,41 @@ nav a:hover {
 	line-height: 24px;
 	color: #DAC9B5;
 	text-align: right;
-	margin-right: 20px;
+	margin-right: 35px;
 }
 .quote-quote-left {
-	background-image: url(../img/quote-quote-left.png);
+	position: absolute;
+	background-image: url(../img/quote-yellow.svg);
 	height: 34px;
 	width: 42px;
-	left: -35px;
-	top: -50px;
-	position: absolute;
+	top: -41px;
+	left: -36px;	
 }
 .quote-quote-left2 {
-	background-image: url(../img/quote-quote-left2.png);
+	position: absolute;
+	background-image: url(../img/quote-yellow-small.svg);
 	height: 12px;
 	width: 16px;
-	left: -16px;
-	top: -24px;
-	position: absolute;
+	top: -13px;
+	left: -16px;	
 }
 .quote-quote-right {
-	background-image: url(../img/quote-quote-right.png);
+	position: absolute;
+	background-image: url(../img/quote-yellow.svg);
 	height: 34px;
 	width: 42px;
-	right: -35px;
-	bottom: -50px;
-	position: absolute;
+	right: -32px;
+	bottom: -37px;
+	transform: rotateZ(180deg);
 }
 .quote-quote-right2 {
-	background-image: url(../img/quote-quote-right2.png);
+	position: absolute;
+	background-image: url(../img/quote-yellow-small.svg);
 	height: 12px;
 	width: 16px;
 	right: -12px;
-	bottom: -24px;
-	position: absolute;
+	bottom: -9px;	
+	transform: rotateZ(180deg);
 }
 footer {
 	background-color: #FFF;
@@ -813,16 +818,27 @@ footer {
 	position: relative;
 	margin-left: 45px;
 }
-.block3-image-bg {
-	background-image: url(../img/block3_1/bg.png);
-	height: 560px;
-	width: 560px;
+.block3-image:before {
+	content: '';
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	width: 343px;
+	height: 343px;
+	right: 0;
+	bottom: 0;
+	background: rgba(250, 250, 250, 0.2);
+	border-radius: 50%;
+	filter: blur(150px);
+}
+.block3-image-bg {
+	background-image: url(../img/prosecco/bg.png);
+	position: absolute;	
+    width: 675px;
+    height: 508px;
+    left: -20px;
+    bottom: -100px;
 }
 .block3-image-image1 {
-	background-image: url(../img/block3_1/image1.png);
+	background-image: url(../img/prosecco/image1.png);
 	height: 422px;
 	width: 346px;
 	position: absolute;
@@ -830,7 +846,7 @@ footer {
 	top: 40px;
 }
 .block3-image-image2 {
-	background-image: url(../img/block3_1/image2.png);
+	background-image: url(../img/prosecco/image2.png);
 	height: 233px;
 	width: 506px;
 	position: absolute;
@@ -838,41 +854,41 @@ footer {
 	bottom: 0px;
 }
 .block3-image-icon1 {
-	background-image: url(../img/block3_1/icon1.png);
-	height: 42px;
-	width: 49px;
+	background-image: url(../img/prosecco/icon1.png);
+	width: 182px;
+	height: 267px;	
 	position: absolute;
-	left: 120px;
-	top: 184px;
+	left: 127px;
+	top: 150px;
 }
 .block3-image-icon2 {
-	background-image: url(../img/block3_1/icon2.png);
-	height: 89px;
-	width: 85px;
+	background-image: url(../img/prosecco/icon2.png);
+	width: 188px;
+	height: 176px;	
 	position: absolute;
-	left: 103px;
-	top: 282px;
+	left: 65px;
+	bottom: 58px;
 }
 .block3-image-icon4 {
-	background-image: url(../img/block3_1/icon4.png);
-	height: 54px;
-	width: 57px;
-	position: absolute;
-	top: 303px;
-	right: 176px;
+	background-image: url(../img/prosecco/icon4.png);
+	width: 181px;
+	height: 178px;	
+	position: absolute;	
+	right: 5px;
+	bottom: 87px;
 }
 .block3-image-icon5 {
-	background-image: url(../img/block3_1/icon5.png);
-	height: 144px;
-	width: 137px;
-	position: absolute;
-	top: 331px;
-	right: 126px;
+	background-image: url(../img/prosecco/icon5.png);
+	width: 126px;
+	height: 97px;	
+	position: absolute;	
+	right: 23px;
+	bottom: 6px;
 }
 .block3-image-image-fix {
-	background-image: url(../img/block3_1/fix1.png);
-	height: 516px;
-	width: 506px;
+	background-image: url(../img/prosecco/prosecco-girl.png);
+	width: 516px;
+	height: 564px;	
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
