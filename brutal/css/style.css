@@ -12,7 +12,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	color: #333333;
-	background-color: #000;
+	background-color: #560009;
 	min-width: 480px;
 }
 a {
@@ -62,11 +62,11 @@ nav {
 	align-content: center;
 }
 nav a {
-	color: #DAC9B5;
-	margin-left: 60px;
+	color: #FCEACF;
+	margin-left: 63px;
 }
 nav a:hover {
-	color: #F1A44D;
+	color: #E2846C;
 }
 .block1 .container {
 	position: relative;
