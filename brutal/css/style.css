@@ -240,11 +240,11 @@ nav a:hover {
 }
 .white-top {
 	position: absolute;
-	top: -220px;
-	left: 0px;
+	top: -7%;
+	left: 0;
 	width: 100%;
-	height: 646px;
-	background: url(../img/clouds-bg.png) 0 0;	
+	height: 400px;
+	background: url(../img/clouds-bg.png) 50% 0 no-repeat;
 }
 .white-title {
 	font-size: 44px;
@@ -347,37 +347,37 @@ nav a:hover {
 	font-weight: 500;
 }
 .faq-quote-left {
-	position: absolute;
-	background-image: url(../img/quote-burgundy.svg);
+	position: absolute;	
 	width: 65px;
 	height: 53px;	
-	left: -33px;
-	top: -65px;	
+	top: -65px;
+	left: -33px;	
+	background-image: url(../img/quote-burgundy.svg);
 }
 .faq-quote-left2 {
 	position: absolute;
-	background-image: url(../img/quote-burgundy-small.svg);
-	height: 18px;
 	width: 22px;
-	left: -8px;
-	top: -24px;	
+	height: 18px;
+	top: -24px;
+	left: -8px;	
+	background-image: url(../img/quote-burgundy-small.svg);
 }
 .faq-quote-right {
 	position: absolute;
-	background-image: url(../img/quote-burgundy.svg);
-	height: 53px;
 	width: 65px;
+	height: 53px;	
 	right: -48px;
 	bottom: -65px;
+	background-image: url(../img/quote-burgundy.svg);
 	transform: rotateZ(180deg);
 }
 .faq-quote-right2 {
 	position: absolute;
-	background-image: url(../img/quote-burgundy-small.svg);
-	height: 18px;
 	width: 22px;
+	height: 18px;	
 	right: -15px;
 	bottom: -22px;
+	background-image: url(../img/quote-burgundy-small.svg);
 	transform: rotateZ(180deg);
 }
 .faq {
@@ -442,23 +442,23 @@ nav a:hover {
 }
 .about {
 	position: relative;
-	padding-bottom: 100px;
+	z-index: 1;
 }
 .about-icon1 {
-	background-image: url(../img/about-icon1.png);
-	height: 325px;
-	width: 151px;
 	position: absolute;
-	left: 0px;
 	top: 30px;
+	left: 0px;	
+	width: 151px;
+	height: 325px;
+	background-image: url(../img/about-icon1.png);
 }
 .about-icon6 {
-	background-image: url(../img/about-icon6.png);
-	height: 358px;
-	width: 127px;
 	position: absolute;
 	top: 30px;
 	right: 0px;
+	width: 127px;
+	height: 358px;
+	background-image: url(../img/about-icon6.png);
 }
 .about-block .container {
 	width: 765px;
@@ -466,30 +466,30 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
 }
-.about-icon2 {
-	background-image: url(../img/about-icon2.png);
-	height: 245px;
-	width: 223px;
+.about-icon2 {	
 	position: absolute;
 	left: 0px;
 	bottom: -120px;
+	width: 223px;
+	height: 245px;
+	background-image: url(../img/about-icon2.png);
 	z-index: 2;
 }
-.about-icon4 {
-	background-image: url(../img/about-icon4.png);
-	height: 113px;
-	width: 125px;
+.about-icon4 {	
 	position: absolute;
+	width: 125px;
+	height: 113px;
 	top: 0px;
 	right: -30px;
+	background-image: url(../img/about-icon4.png);
 }
-.about-icon5 {
-	background-image: url(../img/about-icon5.png);
-	height: 121px;
-	width: 161px;
+.about-icon5 {	
 	position: absolute;
+	width: 161px;
+	height: 121px;
 	right: -30px;
 	bottom: 60px;
+	background-image: url(../img/about-icon5.png);
 }
 .about-content {
 	width: 425px;
@@ -506,7 +506,7 @@ nav a:hover {
 	margin-bottom: 60px;
 }
 .info {
-	padding-top: 120px;
+	padding-top: 200px;
 	margin-bottom: 180px;
 	position: relative;
 }
@@ -568,24 +568,24 @@ nav a:hover {
     transform: translateY(-50%);
 }
 .info-icon1 {
-	background-image: url(../img/info-icon1.png);
-	height: 194px;
-	width: 148px;
+	position: absolute;	
 	left: 0px;
-	position: absolute;
 	bottom: -100px;
+	width: 148px;
+	height: 194px;
+	background-image: url(../img/info-icon1.png);
 	z-index: 2;
 }
 .info-icon2 {
-	background-image: url(../img/info-icon2.png);
-	height: 63px;
-	width: 71px;
-	position: absolute;
-	bottom: -70px;
+	position: absolute;	
 	right: 60px;
+	bottom: -70px;
+	width: 71px;
+	height: 63px;
+	background-image: url(../img/info-icon2.png);
 }
 .sub {
-	margin-bottom: 180px;
+	margin-bottom: 160px;
 }
 .sub .container {
 	display: flex;
@@ -644,19 +644,18 @@ nav a:hover {
 	color: #F1A44D;
 	margin-bottom: 60px;
 }
-.white-image {
+.white-image {	
+	min-height: 661px;
+	background: url(../img/nabor-past-bg.png) 50% no-repeat;
 	text-align: center;
-	margin-bottom: 56px;
 }
 .white-bottom {
-	background-image: url(../img/white-bottom.png);
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	height: 98px;
-	width: 100%;
 	position: absolute;
-	left: 0px;
-	bottom: -40px;
+	bottom: -7%;
+	left: 0;
+	width: 100%;
+	height: 415px;
+	background: url(../img/clouds-bg.png) 50% 0 no-repeat;
 }
 .quote-block {
 	height: 467px;
@@ -706,8 +705,8 @@ nav a:hover {
 .quote-quote-left {
 	position: absolute;
 	background-image: url(../img/quote-yellow.svg);
-	height: 34px;
 	width: 42px;
+	height: 34px;	
 	top: -41px;
 	left: -36px;	
 }
@@ -790,7 +789,6 @@ footer {
 	line-height: 24px;
 	font-weight: 300;
 }
-
 .info-item-top3 {
 	color: #222;
 }
@@ -800,119 +798,122 @@ footer {
 	height: 681px;
 }
 .block3-block:nth-child(4) .block3-image {
-	width: 542px;
-    height: 499px;
+	width: 556px;
+    height: 523px;
 }
 .block3-block:nth-child(5) .block3-image {
-	width: 526px;
-    height: 596px;
+	width: 546px;
+    height: 623px;
 }
 .block3-image:before {
 	content: '';
 	position: absolute;
 	width: 343px;
 	height: 343px;
-	right: 0;
-	bottom: 0;
+	top: 30px;
+	left: 85px;	
 	background: rgba(250, 250, 250, 0.2);
 	border-radius: 50%;
 	filter: blur(150px);
 }
-.block3-image-bg {
-	background-image: url(../img/prosecco/bg.png);
-	position: absolute;	
+.block3-block:nth-child(4) .block3-image:before {
+
+}
+.block3-image-bg {	
+	position: absolute;
     width: 675px;
     height: 508px;
     top: 120px;
     left: -35px;
+    background-image: url(../img/prosecco/prosecco-bg.png);
 }
-.block3-image-image1 {
-	background-image: url(../img/prosecco/image1.png);
-	height: 422px;
+.block3-image-image1 {	
+	position: absolute;	
 	width: 346px;
-	position: absolute;
-	left: 117px;
+	height: 422px;
 	top: 40px;
+	left: 117px;	
+	background-image: url(../img/prosecco/image1.png);
 }
 .block3-image-image2 {
-	background-image: url(../img/prosecco/image2.png);
-	height: 233px;
-	width: 506px;
 	position: absolute;
+	width: 506px;
+	height: 233px;
 	left: 4px;
 	bottom: 0px;
+	background-image: url(../img/prosecco/image2.png);
 }
 .block3-image-icon1 {
-	background-image: url(../img/prosecco/icon1.png);
+	position: absolute;
 	width: 182px;
 	height: 267px;	
-	position: absolute;
-	left: 115px;
 	top: 110px;
+	left: 115px;	
+	background-image: url(../img/prosecco/icon1.png);
 }
 .block3-image-icon2 {
-	background-image: url(../img/prosecco/icon2.png);
-	width: 188px;
-	height: 176px;	
 	position: absolute;
+	width: 188px;
+	height: 176px;		
 	left: 50px;
 	bottom: 210px;
+	background-image: url(../img/prosecco/icon2.png);
 }
 .block3-image-icon4 {
-	background-image: url(../img/prosecco/icon4.png);
+	position: absolute;
 	width: 181px;
 	height: 178px;	
-	position: absolute;	
 	top: 260px;
-	right: 25px;	
+	right: 25px;
+	background-image: url(../img/prosecco/icon4.png);
 }
 .block3-image-icon5 {
-	background-image: url(../img/prosecco/icon5.png);
+	position: absolute;
 	width: 126px;
 	height: 97px;	
-	position: absolute;	
 	right: 45px;
 	bottom: 160px;
+	background-image: url(../img/prosecco/icon5.png);
 }
 .block3-image-image-fix {
-	background-image: url(../img/prosecco/prosecco.png);
+	position: absolute;
 	width: 566px;
 	height: 681px;	
-	position: absolute;
 	left: 0px;
 	bottom: 0px;
+	background-image: url(../img/prosecco/prosecco.png);
 }
 .sub-icon1 {
-	background-image: url(../img/sub/icon1.png);
-	height: 31px;
-	width: 33px;
 	position: absolute;
+	width: 33px;
+	height: 31px;
 	top: -97px;
 	left: 280px;
+	background-image: url(../img/sub/icon1.png);
 }
 .sub-icon2 {
-	background-image: url(../img/sub/icon2.png);
-	height: 34px;
-	width: 34px;
 	position: absolute;
+	width: 34px;
+	height: 34px;
 	top: -48px;
 	left: 250px;
+	background-image: url(../img/sub/icon2.png);
 }
 .sub-icon3 {
-	background-image: url(../img/sub/icon3.png);
-	height: 40px;
-	width: 42px;
 	position: absolute;
+	width: 42px;
+	height: 40px;
 	top: 15px;
 	right: 209px;
+	background-image: url(../img/sub/icon3.png);
 }
 .sub-icon4 {
-	background-image: url(../img/sub/icon4.png);
-	height: 70px;
-	width: 70px;
 	position: absolute;
+	width: 70px;
+	height: 70px;
 	top: 141px;
 	left: 197px;
+	background-image: url(../img/sub/icon4.png);
 }
 .sub-icon5 {
 	background-image: url(../img/sub/icon5.png);
@@ -923,115 +924,108 @@ footer {
 	right: 174px;
 }
 .sub-icon6 {
-	background-image: url(../img/sub/icon6.png);
-	height: 35px;
-	width: 36px;
 	position: absolute;
+	width: 36px;
+	height: 35px;
 	top: 228px;
 	left: 188px;
+	background-image: url(../img/sub/icon6.png);
 }
-.block3_2-image-bg {
-	background-image: url(../img/wermut/bg.png);
-	height: 560px;
-	width: 560px;
+.block3_2-image-bg {	
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	width: 704px;
+	height: 562px;	
+	top: -35px;
+	left: -50px;		
+	background-image: url(../img/wermut/wermut-bg.png);
 }
 .block3_2-image1 {
-	background-image: url(../img/wermut/wermut.png);
-	width: 542px;
-	height: 499px;	
 	position: absolute;
+	width: 556px;
+	height: 523px;		
 	left: 0px;
 	bottom: 0px;
+	background-image: url(../img/wermut/wermut.png);
 }
 .block3_2-image-icon1 {
-	background-image: url(../img/wermut/icon1.png);
-	height: 115px;
-	width: 111px;
 	position: absolute;
-	left: 61px;
-	bottom: 94px;
+	width: 236px;
+	height: 220px;
+	top: 82px;
+	left: 16px;	
+	background-image: url(../img/wermut/icon1.png);
 }
 .block3_2-image-icon2 {
-	background-image: url(../img/wermut/icon2.png);
-	height: 206px;
-	width: 182px;
 	position: absolute;
-	left: 64px;
-	bottom: 0px;
+	width: 186px;
+	height: 163px;
+	left: 15px;
+	bottom: 103px;
+	background-image: url(../img/wermut/icon2.png);
+	background-repeat: no-repeat;
 }
 .block3_2-image-icon3 {
-	background-image: url(../img/wermut/icon3.png);
-	height: 103px;
-	width: 110px;
 	position: absolute;
-	left: 51px;
-	bottom: 47px;
+	width: 172px;
+	height: 151px;
+	right: 30px;
+	top: 88px;
+	background-image: url(../img/wermut/icon3.png);
 }
 .block3_2-image-icon4 {
+	position: absolute;
+	width: 244px;
+	height: 174px;
+	right: -20px;
+	bottom: 160px;
 	background-image: url(../img/wermut/icon4.png);
-	height: 107px;
-	width: 91px;
-	position: absolute;
-	bottom: 97px;
-	right: 5px;
-}
-.block3_2-image-icon5 {
-	background-image: url(../img/wermut/icon5.png);
-	height: 63px;
-	width: 70px;
-	position: absolute;
-	right: 40px;
-	top: 221px;
 }
 .block3_3-image-bg {
-	background-image: url(../img/aperol/bg.png);
-	height: 560px;
-	width: 560px;
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	width: 688px;
+	height: 506px;
+	top: 55px;	
+	left: -70px;
+	background-image: url(../img/aperol/aperol-bg.png);
 }
 .block3_3-image1 {
-	background-image: url(../img/aperol/aperol.png);
-	width: 526px;
-    height: 596px;
-	position: absolute;
+	position: absolute;	
+	width: 546px;
+    height: 623px;	
 	bottom: 0px;
+	background-image: url(../img/aperol/aperol.png);
 }
 .block3_3-image-icon1 {
+	position: absolute;	
+	width: 140px;
+	height: 131px;
+	top: 145px;
+	left: 70px;	
 	background-image: url(../img/aperol/icon1.png);
-	height: 238px;
-	width: 136px;
-	position: absolute;
-	left: 71px;
-	top: 92px;
 }
 .block3_3-image-icon2 {
-	background-image: url(../img/aperol/icon2.png);
-	height: 129px;
-	width: 153px;
 	position: absolute;
-	right: 55px;
-	top: 272px;
+	width: 152px;
+	height: 143px;
+	bottom: 225px;
+	left: 50px;	
+	background-image: url(../img/aperol/icon2.png);
 }
 .block3_3-image-icon3 {
-	background-image: url(../img/aperol/icon3.png);
-	height: 12px;
-	width: 16px;
 	position: absolute;
-	left: 106px;
-	bottom: 194px;
+	width: 155px;
+	height: 139px;
+	top: 180px;
+	right: 13px;	
+	background-image: url(../img/aperol/icon3.png);
 }
 .block3_3-image-icon4 {
-	background-image: url(../img/aperol/icon4.png);
-	height: 35px;
-	width: 48px;
 	position: absolute;
-	left: 60px;
-	bottom: 48px;
+	width: 181px;
+	height: 199px;
+	right: 40px;
+	bottom: 130px;
+	background-image: url(../img/aperol/icon4.png);
 }
 .block3-image-mob {
 	display: none;
