@@ -382,73 +382,54 @@ nav a:hover {
 	transform: rotateZ(180deg);
 }
 .faq {
-	background: #FFFFFF;
+	margin-bottom: 115px;
+	padding: 90px 190px;
+	background: #fafafa;
 	box-shadow: 2px 8px 24px rgba(0, 0, 0, 0.18);
-	border-radius: 12px;
-	margin-bottom: 120px;
-	padding-top: 70px;
-	padding-right: 190px;
-	padding-bottom: 70px;
-	padding-left: 190px;
+	border-radius: 12px;	
 }
 .faq-title {
-	font-size: 33px;
-	line-height: 52px;
-	font-weight: bold;
-	margin-bottom: 50px;
-	text-align: center;
-}
-.faq-items {
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #d8d8d8;
-}
-.faq-title {
+	margin-bottom: 60px;
 	font-size: 44px;
 	line-height: 52px;
-	font-weight: bold;
+	font-weight: bold;	
 	text-align: center;
 }
 .faq-item-title {
-	font-weight: 500;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	padding-left: 25px;
+	display: inline-block;
 	position: relative;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #d8d8d8;
+	margin-bottom: 24px;
+	padding: 12px 24px;
+	color: #E7E6E6;
+	line-height: 24px;
+	background: #760C17;
+	border-radius: 10px;
 	cursor: pointer;
 }
-.faq-item-title:hover {
-	color: #E28C28;
-}
-.faq-item-title span {
-	background-image: url(../img/faq-open.svg);
-	display: block;
-	height: 32px;
-	width: 32px;
-	margin-top: -16px;
-	position: absolute;
-	top: 50%;
-	right: 25px;
+.faq-item-title:before {
+	content: '';
+    position: absolute;    
+    width: 35px;
+    height: 35px;    
+    top: 50%;
+    transform: translateY(-50%);
+    right: -47px;
+    background: url(../img/faq-close.svg) 50% no-repeat #E7E6E6;
+    border-radius: 50%;
 }
 .faq-item-content {
-	line-height: 24px;
-	padding-top: 25px;
-	padding-right: 40px;
-	padding-bottom: 25px;
-	padding-left: 40px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #d8d8d8;
 	display: none;
+	margin-left: 145px;
+	margin-bottom: 24px;
+	padding: 12px 24px;	
+	background: #E7E6E6;
+	border-radius: 10px;
+	line-height: 24px;
 }
-.faq-item-title.active {
-	background-color: #EDEDED;
-}
-.faq-item-title.active span {
-	background-image: url(../img/faq-close.svg);	
+.faq-item-title.active:before {
+    transform: translateY(-50%);
+    right: -47px;
+    background: url(../img/faq-open.svg) 50% no-repeat #760C17;
 }
 .faq-item-content.active {
 	display: block;
