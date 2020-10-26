@@ -588,27 +588,20 @@ nav a:hover {
 	margin-bottom: 180px;
 }
 .sub .container {
-	position: relative;
-}
-.sub-block {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
-	align-content: center;
+	width: 870px;
+	margin: 0 auto;
 }
 .sub-image {
-	position: absolute;
-	top: 0;
-	right: -65px;
-	background-image: url(../img/sub/image1.png);
-	height: 513px;
-	width: 695px;
+	position: relative;
+	width: 295px;
+	height: 581px;
+	background-image: url(../img/sub/smartphone.png);
 }
 .sub-content {
-	width: 500px;
-	padding-left: 95px;
+	width: 400px;
 	color: #fafafa;
 }
 .sub-title {
