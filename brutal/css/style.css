@@ -438,10 +438,11 @@ nav a:hover {
 	line-height: 52px;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 56px;
+	margin-bottom: 95px;
 }
 .about {
 	position: relative;
+	padding-bottom: 100px;
 }
 .about-icon1 {
 	background-image: url(../img/about-icon1.png);
@@ -460,7 +461,10 @@ nav a:hover {
 	right: 0px;
 }
 .about-block .container {
-	position: relative;
+	width: 765px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .about-icon2 {
 	background-image: url(../img/about-icon2.png);
@@ -487,15 +491,6 @@ nav a:hover {
 	right: -30px;
 	bottom: 60px;
 }
-.about-block-content {
-	height: 568px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	align-items: center;
-	align-content: center;
-}
 .about-content {
 	width: 425px;
 }
@@ -508,7 +503,7 @@ nav a:hover {
 .about-content p {
 	font-size: 17px;
 	line-height: 24px;
-	margin-bottom: 32px;
+	margin-bottom: 60px;
 }
 .info {
 	padding-top: 120px;
@@ -659,11 +654,6 @@ nav a:hover {
 .white-image {
 	text-align: center;
 	margin-bottom: 56px;
-}
-.about-image {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
 }
 .white-bottom {
 	background-image: url(../img/white-bottom.png);
