@@ -31,11 +31,6 @@
 	margin-bottom: 20px;
 	margin-left: 20px;
 	}	
-	.order-blocks {
-	justify-content: center;
-	margin-bottom: -4px;
-	}
-
 	.faq-info img {
 	width: 350px;
 	}
@@ -68,15 +63,14 @@
 	justify-content: space-between;
 	height: auto;
 	}
+	.qoute .container {
+	align-items: flex-end;
+	}
 	.qoute-image img {
 	height: 100%;
 	}
 	.qoute-image {
 	height: 300px;
-	}
-	.quote-block {
-	height: auto;
-	padding-bottom: 100px;
 	}
 }
 @media screen and (max-width: 959px) {
@@ -129,9 +123,6 @@
 	}
 	.sub-block img {
 	width: 300px;
-	}
-	.qoute-image {
-	height: 200px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -280,6 +271,9 @@
 	.sub {
 	margin-bottom: 60px;
 	}
+	.qoute .container {
+	flex-direction: column-reverse;
+	}
 	.qoute-content {
 	width: 100%;
 	margin-right: 0px;
@@ -290,10 +284,10 @@
 	margin-bottom: 40px;
 	}
 	.quote-block {
-	padding-bottom: 350px;
+	padding-bottom: 30px;
 	}
 	.qoute-image {
-	height: 330px;
+	margin: 0 auto;
 	}
 	header {
 	padding-top: 20px;

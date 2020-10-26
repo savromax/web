@@ -143,12 +143,13 @@ nav a:hover {
 	background-color: #333;
 }
 .cnt {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 .block1-image {
 	position: absolute;
@@ -193,7 +194,7 @@ nav a:hover {
 	line-height: 24px;
 	color: #FCEACF;
 	text-align: center;
-	margin-bottom: 120px;
+	margin-bottom: 45px;
 }
 .block3-block {
 	margin-bottom: 120px;
@@ -239,14 +240,12 @@ nav a:hover {
 	padding-top: 160px;
 }
 .white-top {
-	background-image: url(../img/white-top-fix.png);
-	background-repeat: no-repeat;
-	background-position: center top;
-	height: 98px;
-	width: 100%;
-	left: 0px;
-	top: 0px;
 	position: absolute;
+	top: -300px;
+	left: 0px;
+	width: 100%;
+	height: 646px;
+	background: url(../img/clouds-bg.png) 0 0;	
 }
 .white-title {
 	font-size: 44px;
@@ -313,7 +312,7 @@ nav a:hover {
 }
 .pay {
 	text-align: center;
-	padding-bottom: 120px;
+	padding-bottom: 70px;
 }
 .pay .order-text {
 	margin-bottom: 30px;
@@ -533,7 +532,7 @@ nav a:hover {
 }
 .info {
 	padding-top: 120px;
-	margin-bottom: 184px;
+	margin-bottom: 180px;
 	position: relative;
 }
 .info .container {
@@ -563,7 +562,35 @@ nav a:hover {
 	align-content: center;
 }
 .info-item {
+	position: relative;
 	width: 265px;
+	height: 308px;
+	padding: 32px 25px;	
+	background-image: url(../img/info/info-item-bg.png);
+	color: #fff;
+	border-radius: 12px;
+}
+.info-blocks .info-item:nth-child(1) {
+	background-color: #083D77;
+}
+.info-blocks .info-item:nth-child(2) {
+	background-color: #2C86BF;
+}
+.info-blocks .info-item:nth-child(3) {
+	background: url(../img/info/info-item-bg-black.png) #F4D35E;
+	color: #222;
+}
+.info-blocks .info-item:nth-child(4) {
+	background-color: #222;
+}
+.info-item__content {
+	width: 140px;
+}
+.info-item img {
+	position: absolute;
+    right: 25px;
+    top: 52%;
+    transform: translateY(-50%);
 }
 .info-icon1 {
 	background-image: url(../img/info-icon1.png);
@@ -583,13 +610,12 @@ nav a:hover {
 	right: 60px;
 }
 .sub {
-	margin-bottom: 120px;
+	margin-bottom: 180px;
 }
 .sub .container {
 	position: relative;
 }
 .sub-block {
-	height: 617px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -599,23 +625,49 @@ nav a:hover {
 }
 .sub-image {
 	position: absolute;
-	top: 100px;
+	top: 0;
 	right: -65px;
 	background-image: url(../img/sub/image1.png);
 	height: 513px;
 	width: 695px;
 }
 .sub-content {
-	text-align: center;
-	width: 540px;
+	width: 500px;
 	padding-left: 95px;
+	color: #fafafa;
 }
 .sub-title {
 	font-size: 44px;
 	line-height: 52px;
 	font-weight: bold;
-	color: #FFF;
-	margin-bottom: 32px;
+	margin-bottom: 70px;
+}
+.sub-content ol {
+	margin-bottom: 90px;
+}
+.sub-content ol li {
+	position: relative;
+    padding-left: 50px;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 500;
+}
+.sub-content ol li:before {
+	position: absolute;
+	top: 0;
+    left: 0;
+	font-size: 58px;
+	font-weight: bold;
+	color: #EDC38D;
+}
+.sub-content ol li:nth-child(1) {
+	margin-bottom: 50px;
+}
+.sub-content ol li:nth-child(1):before {
+	content: '1';
+}
+.sub-content ol li:nth-child(2):before {
+	content: '2';
 }
 .sub-text {
 	font-size: 24px;
@@ -623,11 +675,6 @@ nav a:hover {
 	font-weight: 500;
 	color: #F1A44D;
 	margin-bottom: 60px;
-}
-.sub-text2 {
-	line-height: 24px;
-	color: #DAC9B5;
-	margin-bottom: 50px;
 }
 .white-image {
 	text-align: center;
@@ -659,12 +706,12 @@ nav a:hover {
 }
 .qoute .container {
 	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .qoute-image {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	height: 467px;
+	height: 534px;
 }
 .qoute-content {
 	width: 371px;
@@ -676,7 +723,7 @@ nav a:hover {
 	line-height: 52px;
 	font-weight: bold;
 	color: #FFF;
-	margin-bottom: 54px;
+	margin-bottom: 106px;
 }
 .quote-text {
 	position: relative;
@@ -764,14 +811,6 @@ footer {
 .footer-block .politika {
 	font-size: 15px;
 }
-.info-item-top {
-	background-color: #063099;
-	height: 116px;
-	padding-top: 32px;
-	padding-left: 25px;
-	border-radius: 12px 12px 0px 0px;
-	color: #FFF;
-}
 .info-item-text1 {
 	font-size: 12px;
 	line-height: 16px;
@@ -780,43 +819,22 @@ footer {
 .info-item-text2 {
 	font-size: 24px;
 	line-height: 28px;
-	margin-bottom: 8px;
+	margin-bottom: 48px;
 	font-weight: 500;
 }
 .info-item-bottom {
-	background-color: #FFF;
-	height: 192px;
-	padding-top: 24px;
-	padding-right: 24px;
-	padding-left: 24px;
-	position: relative;
 	font-size: 17px;
 	line-height: 24px;
-	color: #181412;
-	border-radius: 0px 0px 12px 12px;
+	font-weight: 300;
 }
-.item-info-image {
-	width: 100%;
-	position: absolute;
-	left: 0px;
-	bottom: 25px;
-	text-align: center;
-}
-.info-item-top2 {
-	background-color: #3499D9;
-}
+
 .info-item-top3 {
-	background-color: #FFE777;
-	color: #181412;
+	color: #222;
 }
-.info-item-top4 {
-	background-color: #EC5E5D;
-}
-.block3-image {
-	height: 560px;
-	width: 560px;
+.block3-image {		
 	position: relative;
-	margin-left: 45px;
+	width: 566px;
+	height: 681px;
 }
 .block3-image:before {
 	content: '';
@@ -834,8 +852,8 @@ footer {
 	position: absolute;	
     width: 675px;
     height: 508px;
-    left: -20px;
-    bottom: -100px;
+    top: 120px;
+    left: -35px;
 }
 .block3-image-image1 {
 	background-image: url(../img/prosecco/image1.png);
@@ -858,37 +876,37 @@ footer {
 	width: 182px;
 	height: 267px;	
 	position: absolute;
-	left: 127px;
-	top: 150px;
+	left: 115px;
+	top: 110px;
 }
 .block3-image-icon2 {
 	background-image: url(../img/prosecco/icon2.png);
 	width: 188px;
 	height: 176px;	
 	position: absolute;
-	left: 65px;
-	bottom: 58px;
+	left: 50px;
+	bottom: 210px;
 }
 .block3-image-icon4 {
 	background-image: url(../img/prosecco/icon4.png);
 	width: 181px;
 	height: 178px;	
 	position: absolute;	
-	right: 5px;
-	bottom: 87px;
+	top: 260px;
+	right: 25px;	
 }
 .block3-image-icon5 {
 	background-image: url(../img/prosecco/icon5.png);
 	width: 126px;
 	height: 97px;	
 	position: absolute;	
-	right: 23px;
-	bottom: 6px;
+	right: 45px;
+	bottom: 160px;
 }
 .block3-image-image-fix {
 	background-image: url(../img/prosecco/prosecco-girl.png);
-	width: 516px;
-	height: 564px;	
+	width: 566px;
+	height: 681px;	
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
