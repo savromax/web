@@ -44,6 +44,7 @@
 	}
 	.info {
 	    margin-bottom: 100px;
+	    padding-top: 200px;
 	}
 	.info-item {
 		margin-right: 20px;
@@ -241,7 +242,7 @@
 		line-height: 40px;
 		margin-bottom: 40px;
 	}
-	.about-icon1, .about-icon2, .about-icon4, .about-icon5, .about-icon6, .about-icon7 {
+	.about-icon1, .about-icon2, .about-icon3, .about-icon4, .about-icon5, .about-icon6, .about-icon7, .about-icon8, .about-icon9 {
 		display: none;
 	}
 	.about-content-title {
@@ -262,10 +263,14 @@
 	}
 	.info {
 		margin-bottom: 60px;
+		padding-top: 170px;
 	}
 	.info-title {
 		font-size: 30px;
 		line-height: 40px;
+	}
+	.info-text {
+		margin-bottom: 30px;
 	}
 	.info-icon1, .info-icon2 {
 		display: none;

@@ -445,50 +445,89 @@ nav a:hover {
 }
 .about-icon1 {
 	position: absolute;
-	top: 30px;
-	left: 0px;	
-	width: 151px;
-	height: 325px;
+	top: -13%;
+	left: 36%;
+	width: 51px;
+	height: 45px;
 	background-image: url(../img/about-icon1.png);
 }
-.about-icon6 {
+.about-icon2 {
 	position: absolute;
-	top: 30px;
-	right: 0px;
-	width: 127px;
-	height: 358px;
+	top: -8%;
+	right: -4.5%;
+	width: 160px;
+	height: 204px;
+	background-image: url(../img/about-icon2.png);
+}
+.about-icon3 {
+	position: absolute;
+	top: 26%;
+	left: -3.5%;	
+	width: 168px;
+	height: 214px;
+	background-image: url(../img/about-icon3.png);
+}
+.about-icon4 {
+	position: absolute;
+	top: 20%;
+	right: 19%;	
+	width: 90px;
+	height: 88px;
+	background-image: url(../img/about-icon4.png);
+}
+.about-icon5 {	
+	position: absolute;
+	right: 4%;
+	bottom: 8%;
+	width: 63px;
+	height: 69px;
+	background-image: url(../img/about-icon5.png);
+}
+.about-icon6 {	
+	position: absolute;
+	width: 132px;
+	height: 139px;	
+	top: -2%;
+	left: 18%;	
 	background-image: url(../img/about-icon6.png);
+}
+.about-icon7 {	
+	position: absolute;
+	width: 106px;
+	height: 125px;
+	top: 13%;
+	right: 34%;	
+	background-image: url(../img/about-icon7.png);
+}
+.about-icon8 {
+	position: absolute;
+	width: 172px;
+	height: 140px;
+	top: 36%;
+	right: -5%;	
+	background-image: url(../img/about-icon8.png);
+}
+.about-icon8 {
+	position: absolute;
+	width: 172px;
+	height: 140px;
+	top: 36%;
+	right: -5%;	
+	background-image: url(../img/about-icon8.png);
+}
+.about-icon9 {
+	position: absolute;
+	width: 46px;
+	height: 38px;
+	top: -7%;
+	left: -6%;	
+	background-image: url(../img/about-icon9.png);
 }
 .about-block .container {
 	width: 765px;
 	display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.about-icon2 {	
-	position: absolute;
-	left: 0px;
-	bottom: -120px;
-	width: 223px;
-	height: 245px;
-	background-image: url(../img/about-icon2.png);
-	z-index: 2;
-}
-.about-icon4 {	
-	position: absolute;
-	width: 125px;
-	height: 113px;
-	top: 0px;
-	right: -30px;
-	background-image: url(../img/about-icon4.png);
-}
-.about-icon5 {	
-	position: absolute;
-	width: 161px;
-	height: 121px;
-	right: -30px;
-	bottom: 60px;
-	background-image: url(../img/about-icon5.png);
 }
 .about-content {
 	width: 425px;
@@ -505,7 +544,7 @@ nav a:hover {
 	margin-bottom: 60px;
 }
 .info {
-	padding-top: 200px;
+	padding-top: 250px;
 	margin-bottom: 180px;
 	position: relative;
 }
@@ -525,7 +564,7 @@ nav a:hover {
 	line-height: 24px;
 	color: #FFF;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 70px;
 }
 .info-blocks {
 	display: flex;
@@ -565,23 +604,6 @@ nav a:hover {
     right: 25px;
     top: 52%;
     transform: translateY(-50%);
-}
-.info-icon1 {
-	position: absolute;	
-	left: 0px;
-	bottom: -100px;
-	width: 148px;
-	height: 194px;
-	background-image: url(../img/info-icon1.png);
-	z-index: 2;
-}
-.info-icon2 {
-	position: absolute;	
-	right: 60px;
-	bottom: -70px;
-	width: 71px;
-	height: 63px;
-	background-image: url(../img/info-icon2.png);
 }
 .sub {
 	margin-bottom: 160px;
@@ -649,7 +671,7 @@ nav a:hover {
 }
 .white-bottom {
 	position: absolute;
-	bottom: -7%;
+	bottom: -8%;
 	left: 0;
 	width: 100%;
 	height: 415px;
