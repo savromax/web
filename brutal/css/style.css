@@ -161,24 +161,6 @@ nav a:hover {
 	width: 118px;
 	bottom: 0px;
 }
-.block2 {
-	margin-bottom: 100px;
-	background-image: url(../img/block2-image.png);
-	background-repeat: no-repeat;
-	background-position: center top;
-	height: 530px;
-}
-.block2 .container {
-	position: relative;
-}
-.block2-bg {
-	background-image: url(../img/block2-bg.png);
-	height: 660px;
-	width: 1220px;
-	position: absolute;
-	left: -300px;
-	top: 126px;
-}
 .block3 {
 	margin-bottom: 220px;
 }
