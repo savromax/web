@@ -200,7 +200,6 @@ nav a:hover {
 	margin-bottom: 120px;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
@@ -591,14 +590,14 @@ nav a:hover {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 870px;
+	max-width: 870px;
 	margin: 0 auto;
 }
 .sub-image {
 	position: relative;
 	width: 295px;
 	height: 581px;
-	background-image: url(../img/sub/smartphone.png);
+	background: url(../img/sub/smartphone.png) 0 / cover;
 }
 .sub-content {
 	width: 400px;
@@ -644,9 +643,8 @@ nav a:hover {
 	color: #F1A44D;
 	margin-bottom: 60px;
 }
-.white-image {	
-	min-height: 661px;
-	background: url(../img/nabor-past-bg.png) 50% no-repeat;
+.white-image {
+	background: url(../img/nabor-past-bg.png) 50% / contain no-repeat;
 	text-align: center;
 }
 .white-bottom {
@@ -1028,9 +1026,6 @@ footer {
 	background-image: url(../img/aperol/icon4.png);
 }
 .block3-image-mob {
-	display: none;
-}
-.sub-block img {
 	display: none;
 }
 .block1-image-mob {
