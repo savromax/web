@@ -22,6 +22,11 @@
 	.block3-block:nth-child(2n) .block3-content {
 		margin-left: 0px;
 	}
+	.white-image {
+		height: auto;
+		background-size: contain;
+		margin-bottom: 50px;
+	}
 	.order-item {
 		margin-right: 20px;
 		margin-bottom: 20px;
@@ -40,7 +45,7 @@
 		padding-left: 50px;
 	}
 	.about-image img {
-		width: 200px;
+		width: 250px;
 	}
 	.info {
 	    margin-bottom: 100px;
@@ -113,14 +118,15 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
-	.about-image img {
-		width: 180px;
-	}
 	.sub-content {
 		width: 400px;
 	}
 	.qoute-image {
 	    height: 300px;
+	}
+	.about-image img {
+		margin-right: 0;
+		padding-top: 0;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -242,7 +248,8 @@
 		line-height: 40px;
 		margin-bottom: 40px;
 	}
-	.about-icon1, .about-icon2, .about-icon3, .about-icon4, .about-icon5, .about-icon6, .about-icon7, .about-icon8, .about-icon9 {
+	.about-icon1, .about-icon2, .about-icon3, .about-icon4, .about-icon5, .about-icon6, .about-icon7, .about-icon8, .about-icon9,
+	.sub-image div {
 		display: none;
 	}
 	.about-content-title {
