@@ -63,7 +63,7 @@
             // каждый угол
                 total += calcInputs.corners * 500;
  
-        install = calcInputs.area;
+        install = calcInputs.area * 1;
         total += install;
  
             total += ' ₽';
