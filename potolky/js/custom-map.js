@@ -67,7 +67,7 @@ function getYaMap() {
     myMap.geoObjects.add(myGeoObject);
 
     myMap.geoObjects        
-        .add(new ymaps.Placemark([55.754683, 37.75652500000001], {
+        /*.add(new ymaps.Placemark([55.754683, 37.75652500000001], {
             balloonContentHeader: 'Наш офис: Плеханова 4А — ООО «ГК Ремонт Выгодно»',
             balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/logo.png">' +
             '<p>Всегда рады встретить Вас в нашем офисе и ответить на все Ваши вопросы.</p>'
@@ -76,7 +76,7 @@ function getYaMap() {
             iconImageHref: 'http://www.remontiruem-kv.ru/wp-content/uploads/2020/09/icon.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]    
-        }))
+        }))*/
         .add(new ymaps.Placemark([55.7691937, 37.59000209999999], {
             balloonContentHeader: 'ул.Гашека, д.9',
             balloonContentBody: '<img src="http://www.remontiruem-kv.ru/wp-content/uploads/2020/08/balloon-content-image-6.jpg">' +

@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 /*-- Reviews Slider--*/
 $('.reviews__wrapper').slick({
 	slidesToShow: 1,
@@ -99,4 +101,31 @@ $('.tab__content').on("lazyLoaded", function(e, slick, image, imageSource) {
 /*-- Phone Mask --*/
 $('.phone-mask').mask('+7(999)999-99-99').click(function () {
 	$(this).get(0).setSelectionRange(3, 3);
+});
+
+
+/*-- Блок с формой "" --*/
+$("#header__form").submit(function() {
+    $.ajax({
+        type: "POST",
+        url: "rest.php",
+        data: $(this).serialize()
+    })/*.done(function() {
+        $(".success").show().fadeOut(2000);
+        yaCounter46502676.reachGoal('successRemontGetPrice');
+        ga('send', 'pageview', '/successRemontGetPrice');
+        return true;
+    })*/;
+    return false;
+});
+
+/*$("#form_raschet, #form_gift, #form_metrazh, #form_rassrochka, #form_zvonok1, #form_zvonok2").submit(function() {
+	$.ajax({
+		type: "POST",
+		url: "rest.php",
+		data: $(this).serialize()
+	});
+	return false;
+});*/
+
 });
