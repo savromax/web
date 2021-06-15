@@ -42,19 +42,19 @@
  
             switch (calcInputs.type) {
                 case 'standart':
-            total += calcInputs.area * 450;
+            total += calcInputs.area * 500;
             break;
                 case 'natyagnoy':
-            total += calcInputs.area * 900;
+            total += calcInputs.area * 1000;
             break;
                 case 'podvesnoy':
-            total += calcInputs.area * 1800;
+            total += calcInputs.area * 1500;
             break;
                 case 'gipsokarton':
-            total += calcInputs.area * 3600;
+            total += calcInputs.area * 2000;
             break;
                 case 'reechniy':
-            total += calcInputs.area * 7200;
+            total += calcInputs.area * 2500;
             break;
             default:
             break;
