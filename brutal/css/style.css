@@ -8,65 +8,6 @@
 ::-moz-placeholder          {color:#8a8a8a;}
 :-moz-placeholder           {color:#8a8a8a;}
 :-ms-input-placeholder      {color:#8a8a8a;}
-
-@-webkit-keyframes bounceIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(.3);
-    transform: scale(.3);
-  }
-
-  50% {
-    opacity: 1;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-
-  70% {
-    -webkit-transform: scale(.9);
-    transform: scale(.9);
-  }
-
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-@keyframes bounceIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(.3);
-    -ms-transform: scale(.3);
-    transform: scale(.3);
-  }
-
-  50% {
-    opacity: 1;
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-
-  70% {
-    -webkit-transform: scale(.9);
-    -ms-transform: scale(.9);
-    transform: scale(.9);
-  }
-
-  100% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-.bounceIn {
-  -webkit-animation-name: bounceIn;
-  animation-name: bounceIn;
-}
-
-
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
@@ -125,6 +66,45 @@ nav a {
 nav a:hover {
 	color: #E2846C;
 }
+
+/* Animate */
+.fadeIn {
+	opacity: 0;
+	transition: all 1s ease;
+}
+.active .fadeIn {	
+	opacity: 1;
+	transition: all 1s ease .4s;
+}
+.fadeInUp {
+	opacity: 0;
+	transform: translateY(120%);	
+	transition: all 1.5s ease;
+}
+.active .fadeInUp {
+	opacity: 1;
+	transform: translateY(0);	
+}
+.fadeInRight {
+	opacity: 0;
+	transform: translateX(120%);
+}
+.active .fadeInRight {
+	opacity: 1;
+	transform: translateX(0);
+	transition: all 1s ease .8s;
+}
+.fadeInLeft {
+	opacity: 0;
+	transform: translateX(-120%);
+}
+.active .fadeInLeft {
+	opacity: 1;
+	transform: translateX(0);
+	transition: all 1s ease .8s;
+}
+
+
 .block1 {
 	margin-bottom: 175px;
 	padding-top: 115px;
@@ -293,7 +273,13 @@ nav a:hover {
 	text-align: center;
 	margin-bottom: 56px;
 }
+.nabor-past {
+	display: flex;
+	align-items: center;
+	margin-bottom: 70px;
+}
 .order {
+	width: 50%;
 	text-align: center;
 }
 .order-title {
@@ -304,12 +290,11 @@ nav a:hover {
 }
 .order-text {
 	line-height: 24px;
-	margin-bottom: 58px;
+	margin-bottom: 30px;
 }
 .order-blocks {
-	margin-bottom: 50px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -326,8 +311,7 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin: 10px;
 }
 .order-item-2 {
 	height: 88px;
@@ -340,8 +324,7 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin: 10px;
 }
 .order-item:hover {
 	transform: scale(1.1);
@@ -711,9 +694,12 @@ nav a:hover {
 	margin-bottom: 60px;
 }
 .white-image {
-	height: 650px;
-	background: url(../img/nabor-past-bg.png) 50% no-repeat;
+	width: 50%;
+	background: url(../img/nabor-past-bg.png) 50% / contain no-repeat;
 	text-align: center;
+}
+.white-image img {
+	width: 100%;
 }
 .white-bottom {
 	position: absolute;
@@ -870,20 +856,6 @@ footer {
 .block3-block:nth-child(5) .block3-image {
 	width: 546px;
     height: 623px;
-}
-.block3-image:before {
-	content: '';
-	position: absolute;
-	width: 343px;
-	height: 343px;
-	top: 30px;
-	left: 85px;	
-	background: rgba(250, 250, 250, 0.2);
-	border-radius: 50%;
-	filter: blur(150px);
-}
-.block3-block:nth-child(4) .block3-image:before {
-
 }
 .block3-image-bg {	
 	position: absolute;

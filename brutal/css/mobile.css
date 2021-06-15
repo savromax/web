@@ -22,20 +22,10 @@
 	.block3-block:nth-child(2n) .block3-content {
 		margin-left: 0px;
 	}
-	.white-image {
+  	.white-image {
 		height: auto;
 		background-size: contain;
 		margin-bottom: 50px;
-	}
-	.order-item {
-		margin-right: 20px;
-		margin-bottom: 20px;
-		margin-left: 20px;
-	}
-	.order-item-2 {
-		margin-right: 20px;
-		margin-bottom: 20px;
-		margin-left: 20px;
 	}	
 	.faq-info img {
 		width: 350px;
@@ -102,6 +92,22 @@
 	}
 	.block3-block {
 		margin-bottom: 80px;
+	}
+	.nabor-past {
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+	.white-image {
+		margin-bottom: 60px;
+	}
+	.white-image, .order {
+		width: auto;
+	}
+	.order-blocks {
+		flex-direction: row;
+	}
+	.order-text {
+		margin-bottom: 30px;
 	}
 	.pay-blocks img {
 		margin-right: 20px;

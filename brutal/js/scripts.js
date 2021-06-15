@@ -32,31 +32,39 @@ $( document ).ready(function() {
 });
 
 
-/*YaMapsShown = false;
-
-$(document).ready(function () {
-  var target = $('.block3-block');
-  var targetPos = target.offset().top;
-  var winHeight = $(window).height();
-  var scrollToElem = targetPos - winHeight;
- $(window).scroll(function() {
-    var winScrollTop = $(this).scrollTop();
-    if (!YaMapsShown){
-     if (winScrollTop > scrollToElem) {      
-      $('.block3-image-image-fix').addClass('slideInDown');
-     }
-    }
- });
-});*/
 
 
+const animItems = document.querySelectorAll('.animate');
 
-$(window).scroll(function(){
-	var el = $('.block3-item-title');
-    if ($(this).scrollTop() > el.offset().top - 200 ) {
-        el.addClass('bounceIn');
-    }
-});
+if(animItems.length > 0) {
+	window.addEventListener('scroll', animOnScroll);
+	function animOnScroll() {
+		for (let index = 0; index < animItems.length; index++) {
+			const animItem = animItems[index];
+			const animItemHeight = animItem.offsetHeight;
+			const animItemOffset = offset(animItem).top;
+			const animStart = 4;
+
+			let animItemPoint = window.innerHeight - animItemHeight / animStart;
+			if (animItemHeight > window.innerHeight) {
+				animItemPoint = window.innerHeight - window.innerHeight / animStart;
+			}
+
+			if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+				animItem.classList.add('active');
+			}
+		}
+	}
+	function offset(el) {
+		const rect = el.getBoundingClientRect(),
+			scrollLeft = window.pageXOffset || document.documentElement.srollLeft,
+			scrollTop = window.pageYOffset || document.documentElement.srollTop;
+		return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+	}
+	animOnScroll();	
+}
+
+
 
 
 var element_point_about = $('.about').offset().top; // положение элемента относительно начала страницы
