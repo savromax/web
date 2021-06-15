@@ -42,26 +42,26 @@
  
             switch (calcInputs.type) {
                 case 'standart':
-            total += calcInputs.area * 1000;
+            total += calcInputs.area * 450;
             break;
                 case 'natyagnoy':
-            total += calcInputs.area * 2000;
+            total += calcInputs.area * 900;
             break;
                 case 'podvesnoy':
-            total += calcInputs.area * 4000;
+            total += calcInputs.area * 1800;
             break;
                 case 'gipsokarton':
-            total += calcInputs.area * 8000;
+            total += calcInputs.area * 3600;
             break;
                 case 'reechniy':
-            total += calcInputs.area * 16000;
+            total += calcInputs.area * 7200;
             break;
             default:
             break;
             }
  
             // каждый угол
-                total += calcInputs.corners * 500;
+                total += calcInputs.corners * 400;
  
         install = calcInputs.area * 0;
         total += install;
