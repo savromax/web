@@ -6,7 +6,7 @@ define('CRM_PATH', '/crm/configs/import/lead.php'); // CRM server REST service p
 
 // CRM server authorization data
 define('CRM_LOGIN', 'remontvigodno@bk.ru'); // login of a CRM user able to manage leads
-define('CRM_PASSWORD', '8tFYc7bCqUrrrrrrrrrrrrrrrrr'); // password of a CRM user
+define('CRM_PASSWORD', '992UUfd81'); // password of a CRM user
 // OR you can send special authorization hash which is sent by server after first successful connection with login and password
 //define('CRM_AUTH', 'e54ec19f0c5f092ea11145b80f465e1a'); // authorization hash
 
