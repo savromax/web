@@ -42,19 +42,19 @@
  
             switch (calcInputs.type) {
                 case 'standart':
-            total += calcInputs.area * 500;
-            break;
-                case 'natyagnoy':
             total += calcInputs.area * 1000;
             break;
+                case 'natyagnoy':
+            total += calcInputs.area * 2000;
+            break;
                 case 'podvesnoy':
-            total += calcInputs.area * 1200;
+            total += calcInputs.area * 4000;
             break;
                 case 'gipsokarton':
-            total += calcInputs.area * 1300;
+            total += calcInputs.area * 8000;
             break;
                 case 'reechniy':
-            total += calcInputs.area * 1500;
+            total += calcInputs.area * 16000;
             break;
             default:
             break;
@@ -63,7 +63,7 @@
             // каждый угол
                 total += calcInputs.corners * 500;
  
-        install = calcInputs.area * 170;
+        install = calcInputs.area * 200;
         total += install;
  
             total += ' ₽';
