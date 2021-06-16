@@ -15,18 +15,16 @@ define('CRM_PASSWORD', '992UUfd81'); // password of a CRM user
 // POST processing
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
-	$leadData = $_POST['DATA'];
 
 	// get lead data from the form
 	$postData = array(
-		'TITLE' => $leadData['TITLE'],
-		'NAME' => $leadData['NAME'],
-		'EMAIL_WORK' => $leadData['EMAIL_WORK'],
-		'PHONE_MOBILE' => $leadData['PHONE_MOBILE'],
-		'UF_CRM_1615571407660' => $_POST['HOME_TYPE'],
-		'UF_CRM_1615568562120' => $_POST['HOME_AREA'],
-		'UF_CRM_1615571583855' => $_POST['REMONT_TYPE'],
-		'UF_CRM_1615571603899' => $_POST['KOLVO_KOMNAT'],
+		'TITLE' => $_POST['TITLE'],
+		'NAME' => $_POST['NAME'],
+		'OPPORTUNITY' => $_POST['OPPORTUNITY'],
+		'PHONE_MOBILE' => $_POST['PHONE_MOBILE'],
+		'UF_CRM_1623795347' => $_POST['potolok_type'],
+		'UF_CRM_1623795409' => $_POST['potolok_area'],
+		'UF_CRM_1623795443' => $_POST['kolvo_osveshenie'],
 	);
 
 	// append authorization data

@@ -21,15 +21,12 @@
                 val = $(this).val();
                 if (!$.isNumeric(val)) {
                     switch (name) {
-                        case 'area':
+                        case 'potolok_area':
                             val = 10;
                             break;
-                        case 'corners':
+                        case 'kolvo_osveshenie':
                             val = 1;
-                            break;
-                        case 'lamp':
-                            val = '';
-                            break;
+                            break;                        
                         default:
                             break;
                     }
@@ -40,34 +37,33 @@
  
             total = 0;
  
-            switch (calcInputs.type) {
-                case 'standart':
-            total += calcInputs.area * 500;
+            switch (calcInputs.potolok_type) {
+                case 'Стандартный':
+            total += calcInputs.potolok_area * 500;
             break;
-                case 'natyagnoy':
-            total += calcInputs.area * 1000;
+                case 'Натяжной':
+            total += calcInputs.potolok_area * 1000;
             break;
-                case 'podvesnoy':
-            total += calcInputs.area * 1500;
+                case 'Подвесной':
+            total += calcInputs.potolok_area * 1500;
             break;
-                case 'gipsokarton':
-            total += calcInputs.area * 2000;
+                case 'Гипсокартонный':
+            total += calcInputs.potolok_area * 2000;
             break;
-                case 'reechniy':
-            total += calcInputs.area * 2500;
+                case 'Реечный':
+            total += calcInputs.potolok_area * 2500;
             break;
             default:
             break;
             }
  
             // каждый угол
-                total += calcInputs.corners * 400;
+                total += calcInputs.kolvo_osveshenie * 400;
  
-        install = calcInputs.area * 0;
+        install = calcInputs.potolok_area * 0;
         total += install;
- 
-            total += ' ₽';
-            jQuery(this).find('span.calc__total').html(total);
+             
+            jQuery(this).find('.calc__total').val(total);
       });
         }
  

@@ -104,28 +104,76 @@ $('.phone-mask').mask('+7(999)999-99-99').click(function () {
 });
 
 
-/*-- Блок с формой "" --*/
-$("#header__form").submit(function() {
+
+/*-- Форма в шапке --*/
+$('#header_form').submit(function() {
     $.ajax({
         type: "POST",
         url: "rest.php",
         data: $(this).serialize()
-    })/*.done(function() {
-        $(".success").show().fadeOut(2000);
-        yaCounter46502676.reachGoal('successRemontGetPrice');
-        ga('send', 'pageview', '/successRemontGetPrice');
+    }).done(function() {
+        $('#header_form .success-msg').show().delay(3000).fadeOut(500);
+        $('#header_form')[0].reset();
         return true;
-    })*/;
+    });
     return false;
 });
 
-/*$("#form_raschet, #form_gift, #form_metrazh, #form_rassrochka, #form_zvonok1, #form_zvonok2").submit(function() {
-	$.ajax({
-		type: "POST",
-		url: "rest.php",
-		data: $(this).serialize()
-	});
-	return false;
-});*/
+/*-- Форма рассчета стоимости --*/
+$('#calc_form').submit(function() {
+    $.ajax({
+        type: "POST",
+        url: "rest.php",
+        data: $(this).serialize()
+    }).done(function() {
+        $('#calc_form .success-msg').show().delay(3000).fadeOut(500);
+        $('.calc__phone').val('');
+        return true;
+    });
+    return false;
+});
+
+/*-- Форма с таймером --*/
+$('#timer_form').submit(function() {
+    $.ajax({
+        type: "POST",
+        url: "rest.php",
+        data: $(this).serialize()
+    }).done(function() {
+        $('.timer__form .success-msg').show().delay(3000).fadeOut(500);
+        $('#timer_form')[0].reset();
+        return true;
+    });
+    return false;
+});
+
+
+
+/* Яндекс карта */
+YaMapsShown = false;
+
+$(document).ready(function () {
+  var target = $('#map');
+  var targetPos = target.offset().top;
+  var winHeight = $(window).height();
+  var scrollToElem = targetPos - winHeight;
+ $(window).scroll(function() {
+    var winScrollTop = $(this).scrollTop();
+    if (!YaMapsShown){
+     if (winScrollTop > scrollToElem) {      
+      showYaMaps();
+      YaMapsShown = true;
+     }
+    }
+ });
+});
+
+function showYaMaps() {
+ var script   = document.createElement("script");
+ script.type  = "text/javascript";
+ script.src   = "https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=c420b7f9-1b5e-4318-b7e8-fb80dee38383&onload=getYaMap";
+ document.body.appendChild(script);
+}
+
 
 });
